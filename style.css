@@ -14,5 +14,36 @@ html {
 body {
   min-width: 22rem;
   font-size: 1.4rem;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Alice', serif;
+}
+/*------------------------------- Navbar----------------------------------------------------- */
+.nav_container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  position: absolute;
+  height: 7rem;
+  border: 1px solid blue;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-left: 2%;
+}
+
+.logo h1 {
+  font-family: 'Lexend Tera', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.social_media {
+  width: 13%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.social_media i {
+  font-size: 2rem;
 }
