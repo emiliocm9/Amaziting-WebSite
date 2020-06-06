@@ -35,7 +35,7 @@ body {
   letter-spacing: 0.5rem;
   text-transform: uppercase;
   font-size: 2rem;
-  color: black;
+  color: white;
   font-weight: bold;
 }
 
@@ -182,7 +182,7 @@ body {
   }
 
   .logo h1 {
-    color: #0f4c81;
+    color: #white;
   }
 
   .burger_menu-cont {
@@ -213,13 +213,27 @@ body {
 
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 600px) and (max-width: 800px){
   .social_media_second {
     display: none;
   }
 
+  .social_media {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 5rem;
+  }
+
   .burger_menu-cont {
-    display: none;
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+  }
+
+  .burger_menu-cont i {
+    font-size: 2.5rem;
+    color: white;
   }
 
 }
