@@ -137,6 +137,13 @@ body {
     display: flex;
     flex-direction: column;
     align-self: flex-start;
+    margin-left: 1.5rem;
+  }
+  
+  .social_media_second i {
+    margin: 1rem;
+    font-size: 1.6rem;
+    color: white;
   }
 
   .left_text-container h2 {
