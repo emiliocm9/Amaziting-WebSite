@@ -119,6 +119,34 @@ body {
 }
 
 /*--------------------------------------------------------- Media queries ------------------------------*/
+@media only screen and (max-width: 600px) {
+  .left_text-container {
+    position: absolute;
+    left: -7rem;
+    width: 1rem;
+    border: 1px solid red;
+    text-align: justify;
+  }
+
+  .left_text-container h2 {
+    font-size: 2.5rem;
+  }
+
+  .left_text-container p a {
+    font-size: 1.5rem;
+  }
+
+  .logo_reference {
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    width: 40%;
+  }
+
+
+}
+
+
 @media only screen and (max-width: 1020px) {
   .left_text-container {
     margin: 0 0 25rem 10rem;
