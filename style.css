@@ -23,27 +23,73 @@ body {
   align-items: center;
   position: absolute;
   height: 7rem;
-  border: 1px solid blue;
   justify-content: space-between;
 }
 
 .logo {
-  margin-left: 2%;
+  margin-left: 5rem;
 }
 
 .logo h1 {
   font-family: 'Lexend Tera', sans-serif;
   text-transform: uppercase;
-  font-weight: bold;
   font-size: 2rem;
+  color: black;
+  font-weight: bold;
 }
 
 .social_media {
   width: 13%;
   display: flex;
   justify-content: space-around;
+  margin-right: 5rem;
 }
 
 .social_media i {
-  font-size: 2rem;
+  font-size: 2.5rem;
+  color: white;
+}
+
+/*--------------------------------------------------------------- First Header Part ----------------------*/
+.first_header {
+  width: 100%;
+  height: 68rem;
+  display: flex;
+}
+
+.left_header {
+  height: 100%;
+  width: 60%;
+  background-color: #85c7d3;
+  display: flex;
+  align-items: center;
+}
+
+.left_text-container {
+  margin: 0 0 25rem 15rem;
+  width: 30rem;
+  text-align: justify;
+}
+
+.left_text-container h2 {
+  font-size: 3.5rem;
+  font-family: 'Lexend Tera', sans-serif;
+  text-transform: uppercase;
+}
+
+.left_text-container p a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+}
+
+.left_text-container p a:hover {
+  text-decoration: #0f4c81;
+  color: #0f4c81;
+}
+
+.right_header {
+  height: 100%;
+  width: 40%;
+  background-color: #0f4c81;
 }
