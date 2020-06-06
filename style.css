@@ -308,6 +308,31 @@ body {
 }
 
 /* ------------------------------------------------------------- Services Section ----------------------------*/
-.services-title {
-  margin: 0 auto;
+.text_services-container h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #F26B5B;
+}
+
+.service_row-one {
+  margin-top: 3rem;
+}
+
+.service_row-two {
+  margin-top: 7rem;
+}
+
+.service_container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.service_icon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.service_icon-container img {
+  width: 30%;
 }
