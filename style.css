@@ -91,5 +91,22 @@ body {
 .right_header {
   height: 100%;
   width: 40%;
-  background-color: #0f4c81;
+  background-color: #B6CADA;
+  display: flex;
+  align-items: center;
+}
+
+.right_text-transform {
+  color: black;
+  border: 1px solid black;
+  font-size: 30rem;
+  font-weight: bold;
+  transform: rotate(90deg);
+  position: absolute;
+  right: -60rem;
+  margin: 0;
+}
+
+.right_text-container {
+  
 }
