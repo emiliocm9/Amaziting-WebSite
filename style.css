@@ -76,7 +76,7 @@ body {
 .left_text-container {
   margin: 0 0 25rem 15rem;
   width: 30rem;
-  text-align: center;
+  text-align: justify;
 }
 
 .left_text-container h2 {
@@ -117,6 +117,14 @@ body {
   right: -17.5rem;
   top: 27rem;
   text-transform: uppercase;
+}
+
+.social_media_second {
+  display: none;
+}
+
+.burger_menu-cont {
+  display: none;
 }
 
 /*--------------------------------------------------------- Media queries ------------------------------*/
@@ -172,7 +180,6 @@ body {
   .nav_container {
     justify-content: space-between;
     height: 5rem;
-    background-color: #B6CADA;
     position: fixed;
     z-index: 1;
   }
@@ -200,20 +207,7 @@ body {
 }
 
 
-@media only screen and (min-width: 1020px) {
-  .left_text-container {
-    margin: 0 0 25rem 10rem;
-    width: 30rem;
-    text-align: justify;
-  }
-
-  .left_text-container h2 {
-    font-size: 3rem;
-  }
-
-}
-
-@media only screen and (min-width: 600px) and (max-width: 800px){
+@media only screen and (min-width: 600px) and (max-width: 800px) {
   .social_media_second {
     display: none;
   }
@@ -235,5 +229,38 @@ body {
     font-size: 2.5rem;
     color: white;
   }
+  
+  .nav_container {
+    position: fixed;
+  }
 
+  .left_text-container {
+    margin: 35rem auto 2rem;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+  }
+
+  .logo_reference {
+    width: 30%;
+    left: 40%;
+  }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 1040px) {
+  .burger_menu-cont {
+    display: none;
+  }
+  .social_media_second {
+    display: none;
+  }
+
+  .left_text-container {
+    margin: 35rem auto 2rem;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+  }
 }
