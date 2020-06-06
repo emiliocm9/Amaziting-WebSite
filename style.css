@@ -169,11 +169,30 @@ body {
   }
   
   .nav_container {
-    justify-content: space-around;
+    justify-content: space-between;
+    height: 4rem;
+    background-color: #0f4c81;
+    position: fixed;
+    z-index: 1;
   }
 
   .logo {
-    margin: 0 auto;
+    margin-right: 1.5rem;
+  }
+
+  .logo h1 {
+    color: red;
+  }
+
+  .burger_menu-cont {
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+  }
+
+  .burger_menu-cont i {
+    font-size: 2.5rem;
+    color: white;
   }
 
 
@@ -195,6 +214,10 @@ body {
 
 @media only screen and (min-width: 800px) {
   .social_media_second {
+    display: none;
+  }
+
+  .burger_menu-cont {
     display: none;
   }
 
