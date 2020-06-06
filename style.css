@@ -136,13 +136,15 @@ body {
   .social_media_second {
     display: flex;
     flex-direction: column;
-    align-self: flex-start;
     margin-left: 1.5rem;
+    position: fixed;
+    bottom: 0rem;
+    left: 0;
   }
   
   .social_media_second i {
     margin: 1rem;
-    font-size: 1.6rem;
+    font-size: 2rem;
     color: white;
   }
 
