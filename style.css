@@ -291,7 +291,6 @@ body {
   cursor: pointer;
 }
 
-
 .image_one {
   background-image: url(img/feature_img/img_one.jpg);
 }
@@ -306,4 +305,9 @@ body {
 
 .image_four {
   background-image: url(img/feature_img/image_four.jpg);
+}
+
+/* ------------------------------------------------------------- Services Section ----------------------------*/
+.services-title {
+  margin: 0 auto;
 }
