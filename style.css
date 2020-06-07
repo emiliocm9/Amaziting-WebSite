@@ -627,7 +627,7 @@ body {
 
 @media only screen and (max-width: 800px) {
   .bigservice_general-cont {
-    clip-path: ellipse(140% 70% at 50% 73%);
+    clip-path: ellipse(170% 70% at 50% 73%);
   }
 }
 
