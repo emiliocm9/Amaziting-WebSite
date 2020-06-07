@@ -147,10 +147,6 @@ body {
     flex-direction: column;
   }
   
-  .who_text-general {
-    margin-top: 3rem;
-  }
-  
   .left_text-container {
     margin: 35rem auto 2rem;
     width: 70%;
