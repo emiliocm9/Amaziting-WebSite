@@ -470,7 +470,6 @@ body {
   font-size: 2rem;
 }
 
-
 @media only screen and (max-width: 600px) {
   .meet_general-cont {
     flex-direction: column;
@@ -482,6 +481,10 @@ body {
 
   .meet_image-cont img {
     width: 100%;
+  }
+
+  .team_list ul li {
+    margin: 0 1rem;
   }
 }
 
