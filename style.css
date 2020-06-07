@@ -518,3 +518,56 @@ body {
 .service_icon-container img {
   width: 30%;
 }
+
+/*------------------------------------------------------------------- Footer ---------------------------------*/
+.footer_container {
+  display: flex;
+  flex-direction: column;
+  background-color: #001E28;
+  height: 14rem;
+  padding-top: 2rem;
+  margin-top: 5rem;
+}
+
+.footer_contact-cont {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+
+.contact {
+  display: flex;
+}
+
+.contact i {
+  font-size: 3rem;
+  -webkit-text-stroke: 1px red;
+  -webkit-text-fill-color: #001E28;
+  margin-right: 0.8rem;
+}
+
+.contact a {
+  color: white;
+  font-size: 1.8rem;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  color: red;
+}
+
+.contact span {
+  color: white;
+  font-size: 1.8rem;
+}
+
+@media only screen and (max-width: 770px) {
+  .footer_contact-cont {
+    flex-direction: column;
+  }
+
+  .contact {
+    margin: 0 auto 0.5rem;
+  }
+}
