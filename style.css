@@ -401,6 +401,7 @@ body {
 .meet_general-cont {
   display: flex;
   width: 100%;
+  align-items: center;
 }
 
 .meet_image-cont {
@@ -421,6 +422,48 @@ body {
   font-weight: 800;
   text-transform: uppercase;
 }
+
+.meet_introduce-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.meet_introduce-title {
+  display: flex;
+  align-items: center;
+  padding-bottom: 3rem;
+}
+
+.meet_introduce-title span {
+  font-size: 3rem;
+  font-family: 'Exo', sans-serif;
+}
+
+.team_list ul {
+  display: flex;
+  list-style: none;
+  width: 100%;
+}
+
+.team_list ul li {
+  margin: 0 2.5rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-family: 'Lexend Tera', sans-serif;
+}
+
+.team_aim {
+  width: 70%;
+  text-align: center;
+}
+
+.team_aim-para {
+  font-size: 2rem;
+}
+
 
 @media only screen and (max-width: 600px) {
   .meet_general-cont {
