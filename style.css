@@ -594,6 +594,14 @@ body {
   }
 
   .contact {
-    margin: 0 auto 1rem;
+    margin: 0 auto 1.2rem;
+  }
+
+  .contact a {
+    font-size: 1.4rem;
+  }
+
+  .contact span {
+    font-size: 1.4rem;
   }
 }
