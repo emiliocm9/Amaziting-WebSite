@@ -442,6 +442,12 @@ body {
   font-family: 'Exo', sans-serif;
 }
 
+.team_list {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  width: 100%;
+}
+
 .team_list ul {
   display: flex;
   list-style: none;
