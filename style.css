@@ -543,7 +543,7 @@ body {
 
 .contact i {
   font-size: 3rem;
-  -webkit-text-stroke: 1px #262626;
+  -webkit-text-stroke: 1px red;
   -webkit-text-fill-color: #0f4c81;
   margin-right: 1.3rem;
 }
