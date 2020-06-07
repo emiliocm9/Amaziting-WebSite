@@ -519,6 +519,26 @@ body {
   width: 30%;
 }
 
+/*------------------------------------------------- Arrow Up Section ----------------------------------*/
+.arrow_up-general {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.arrow_up-cont {
+  width: auto;
+  margin: 0 auto;
+}
+
+.arrow_up-cont a {
+  margin: 0 auto;
+}
+
+.arrow_up-cont a i {
+  font-size: 3rem;
+}
+
 /*----------------------------------------- Big Service Container -------------------------------------*/
 .bigservice_general-cont {
   width: 100%;
