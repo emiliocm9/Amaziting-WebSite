@@ -530,9 +530,77 @@ body {
 .bigservice_container {
   display: flex;
   flex-direction: column;
+  margin: 7rem auto 4rem;
+  align-items: center;
+}
+.hover_red {
+  transition: 0.5s ease-in;
+}
+
+.hover_red:hover {
+  color: red;
+  text-decoration: none;
+}
+
+.anchor_white {
+  text-decoration: none;
+  color: white;
+}
+
+.bigservice_logoref {
+  width: 35rem;
+  text-align: center;
+}
+
+.bigservice_logoref h1 {
+  font-size: 5rem;
+  color: red;
+}
+
+.company_about {
+  width: 80%;
   margin: 0 auto;
   align-items: center;
 }
+
+.company_about ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  list-style: none;
+  justify-content: space-around;
+  font-family: 'Lexend Tera', sans-serif;
+}
+
+.down_arrow-cont i {
+  color: white;
+  font-size: 2rem;
+}
+
+.services_list {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.first {
+  list-style: none;
+  margin: 0 2rem;
+  text-align: right;
+}
+
+.second {
+  text-align: center;
+  margin: 0 2rem;
+  list-style: none;
+}
+
+.third {
+  text-align: left;
+  margin: 0 2rem;
+  list-style: none;
+}
+
 
 /*------------------------------------------------------------------- Footer ---------------------------------*/
 .footer_container {
@@ -541,7 +609,6 @@ body {
   background-color: #0f4c81;
   height: 14rem;
   padding-top: 2rem;
-  margin-top: 5rem;
   justify-content: space-between;
 }
 
