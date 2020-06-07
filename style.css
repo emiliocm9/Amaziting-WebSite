@@ -130,7 +130,7 @@ body {
 .social_media_second {
   display: none;
   z-index: 1;
-  -webkit-text-stroke: 1px black;
+  -webkit-text-stroke: 1px #0f4c81;
   -webkit-text-fill-color: white;
 }
 
