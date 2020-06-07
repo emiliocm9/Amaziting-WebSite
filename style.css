@@ -367,6 +367,12 @@ body {
   text-align: center;
 }
 
+@media only screen and (max-width: 600px) {
+  .who_text {
+    left: 38%;
+  }
+}
+
 
 /* ------------------------------------------------------------- Services Section ----------------------------*/
 .text_services-container h2 {
