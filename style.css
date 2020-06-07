@@ -38,6 +38,8 @@ body {
   font-size: 2rem;
   color: white;
   font-weight: bold;
+  -webkit-text-stroke: 1px #85c7d3;
+  -webkit-text-fill-color: white;
 }
 
 .social_media {
@@ -136,6 +138,8 @@ body {
 
 .burger_menu-cont {
   display: none;
+  -webkit-text-stroke: 1px #85c7d3;
+  -webkit-text-fill-color: white;
 }
 
 /*--------------------------------------------------------- Media queries ------------------------------*/
