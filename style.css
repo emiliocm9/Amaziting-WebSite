@@ -601,6 +601,20 @@ body {
   list-style: none;
 }
 
+@media only screen and (max-width: 600px) {
+  .services_list {
+    flex-direction: column;
+  }
+
+  .first {
+    text-align: center;
+  }
+
+  .third {
+    text-align: center;
+  }
+}
+
 
 /*------------------------------------------------------------------- Footer ---------------------------------*/
 .footer_container {
