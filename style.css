@@ -132,8 +132,8 @@ body {
 .social_media_second {
   display: none;
   z-index: 1;
-  -webkit-text-stroke: 1px #85c7d3;
-  -webkit-text-fill-color: white;
+  -webkit-text-stroke: 1px white;
+  -webkit-text-fill-color: #85c7d3;
 }
 
 .burger_menu-cont {
