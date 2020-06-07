@@ -92,6 +92,13 @@ body {
   font-size: 1.5rem;
 }
 
+.left_text-container h3 {
+  text-decoration: underline;
+  text-decoration-color: black;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
 .left_text-container p a:hover {
   text-decoration: #0f4c81;
   color: #0f4c81;
@@ -134,6 +141,9 @@ body {
     flex-direction: column;
   }
   
+  .who_text-general {
+    margin-top: 3rem;
+  }
   
   .left_text-container {
     margin: 35rem auto 2rem;
@@ -203,10 +213,7 @@ body {
     font-size: 2.5rem;
     color: white;
   }
-
-
 }
-
 
 @media only screen and (min-width: 600px) and (max-width: 800px) {
   .social_media_second {
@@ -306,6 +313,60 @@ body {
 .image_four {
   background-image: url(img/feature_img/image_four.jpg);
 }
+
+/*------------------------------------------- Curves ------------------------------------------------*/
+
+
+/*------------------------------------------- Who we are? --------------------------------------------*/
+.who_general-cont {
+  margin-top: 13rem;
+  margin-bottom: 18rem;
+}
+
+.who_image {
+  background-image: url(vec/who_we_are.png);
+  width: 100%;
+  height: 40rem;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.who_container-one {
+  margin-top: 5rem;
+}
+
+.who_text {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+}
+
+.who_text h2 {
+  text-transform: uppercase;
+  color: white;
+  font-size: 2rem;
+  font-family: 'Lexend Tera', sans-serif;
+}
+
+.who_para-cont {
+  width: 70%;
+  border-bottom: 2px solid #F26B5B;
+  margin: 0 auto;
+}
+
+.who_text-general {
+  display: flex;
+  align-items: center;
+  margin-top: 6rem;
+}
+
+.who_para-cont p {
+  text-transform: uppercase;
+  font-size: 2rem;
+  text-align: center;
+}
+
 
 /* ------------------------------------------------------------- Services Section ----------------------------*/
 .text_services-container h2 {
