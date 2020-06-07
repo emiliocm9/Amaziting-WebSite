@@ -129,6 +129,7 @@ body {
 
 .social_media_second {
   display: none;
+  z-index: 1;
 }
 
 .burger_menu-cont {
