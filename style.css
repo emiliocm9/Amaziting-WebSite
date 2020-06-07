@@ -581,6 +581,8 @@ body {
   display: flex;
   justify-content: space-around;
   text-align: center;
+  position: relative;
+  right: 3rem;
 }
 
 .first {
@@ -604,6 +606,7 @@ body {
 @media only screen and (max-width: 600px) {
   .services_list {
     flex-direction: column;
+    right: 0;
   }
 
   .first {
