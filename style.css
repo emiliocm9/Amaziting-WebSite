@@ -132,7 +132,7 @@ body {
 .social_media_second {
   display: none;
   z-index: 1;
-  -webkit-text-stroke: 1px white;
+  -webkit-text-stroke: 2px white;
   -webkit-text-fill-color: #85c7d3;
 }
 
