@@ -393,13 +393,19 @@ body {
 }
 
 /*--------------------------------------------------------- Teamwork section -------------------------------*/
+.meet_general-cont {
+  display: flex;
+  width: 100%;
+}
+
 .meet_image-cont {
   position: relative;
+  width: 30%;
 }
 
 .teamwork_text-cont {
   position: absolute;
-  left: 10%;
+  left: 23%;
   top: 10%;
 }
 
@@ -409,6 +415,20 @@ body {
   font-family: 'Exo', sans-serif;
   font-weight: 800;
   text-transform: uppercase;
+}
+
+@media only screen and (max-width: 600px) {
+  .meet_general-cont {
+    flex-direction: column;
+  }
+  
+  .meet_image-cont {
+    width: 100%;
+  }
+
+  .meet_image-cont img {
+    width: 100%;
+  }
 }
 
 
