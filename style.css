@@ -93,10 +93,14 @@ body {
 }
 
 .left_text-container h3 {
-  text-decoration: underline;
   text-decoration-color: black;
   text-transform: uppercase;
   margin-bottom: 1.5rem;
+}
+
+.left_text-container h3 span {
+  font-family: 'Lexend Tera', sans-serif;
+  font-weight: bold;
 }
 
 .left_text-container p a:hover {
@@ -280,13 +284,17 @@ body {
 }
 
 /*------------------------------------------------------ First grid with Images -------------------------------*/
+.first_grid-container {
+  padding: 1rem;
+}
+
 .first_grid-img {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   height: 30rem;
   background-position: center;
   background-size: cover;
-  border-radius: 1rem;
+  filter: brightness(0.4);
 }
 
 .first_image-cont {
@@ -294,7 +302,6 @@ body {
 }
 
 .first_grid-img:hover {
-  filter: grayscale(100);
   cursor: pointer;
 }
 
@@ -312,6 +319,18 @@ body {
 
 .image_four {
   background-image: url(img/feature_img/image_four.jpg);
+}
+
+.grid_img-text {
+  position: absolute;
+  left: 23%;
+  top: 40%;
+  font-family: 'Exo', sans-serif;
+  font-weight: 800;
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: white;
+  cursor: pointer;
 }
 
 /*------------------------------------------- Curves ------------------------------------------------*/
@@ -371,6 +390,25 @@ body {
   .who_text {
     left: 33%;
   }
+}
+
+/*--------------------------------------------------------- Teamwork section -------------------------------*/
+.meet_image-cont {
+  position: relative;
+}
+
+.teamwork_text-cont {
+  position: absolute;
+  left: 10%;
+  top: 10%;
+}
+
+.teamwork_text {
+  font-size: 3rem;
+  color: red;
+  font-family: 'Exo', sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
 }
 
 
