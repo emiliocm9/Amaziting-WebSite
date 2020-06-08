@@ -650,9 +650,9 @@ body {
 }
 
 /*------------------------------------------------ Send Message----------------------------------- */
-/* .send_message-general {
-  padding: 8rem 0;
-} */
+.send_message-general {
+  margin: 15rem 0 8rem 0;
+}
 
 .send_message-left {
   display: flex;
@@ -832,13 +832,17 @@ textarea {
     width: 100%;
   }
 
+  .send_message-general {
+    margin: 5rem 0 8rem 0;
+  }
+
   .send_message-left  {
     height: auto;
     width: 100%;
   }
 
   .message_text {
-    margin-bottom: 7rem;
+    margin-bottom: 13rem;
   }
 }
 
