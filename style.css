@@ -84,6 +84,13 @@ body {
   margin-right: 5rem;
 }
 
+.social_media_one {
+  width: 13%;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 5rem;
+}
+
 .social_media i {
   font-size: 2.5rem;
   color: white;
@@ -245,13 +252,29 @@ body {
   text-align: center;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 850px) {
   .menu {
-    margin-top: 8rem;
+    margin-top: 13rem;
+  }
+
+  .social_media_one {
+    width: 19%;
   }
 
   .social_media {
-    width: 19%;
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .social_media {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 850px) {
+  .social_media_one {
+    display: none;
   }
 }
 
@@ -428,12 +451,6 @@ body {
 }
 
 @media only screen and (min-width: 600px) and (max-width: 800px) {
-  .social_media {
-    width: 20%;
-    display: flex;
-    justify-content: space-around;
-    margin-right: 5rem;
-  }
 
   .burger_menu-cont {
     display: flex;
