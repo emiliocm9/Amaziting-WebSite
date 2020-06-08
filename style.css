@@ -567,9 +567,9 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-  .carousel_general-titlcont h1 {
+  /* .carousel_general-titlcont h1 {
     font-size: 2.5rem;
-  }
+  } */
 }
 
 /*--------------------------------------------- Service General Cont -----------------------------------*/
