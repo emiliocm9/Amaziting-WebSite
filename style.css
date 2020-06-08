@@ -110,6 +110,7 @@ body {
   border: 1em solid #0f4c81;
   transform: rotate(90deg);
 }
+
 .menu:after {
   transform: rotate(-90deg);
   content: "";
@@ -205,6 +206,7 @@ body {
 .menu:hover ul {
   transform: rotate(0deg) translateY(-1em);
 }
+
 .menu li:hover {
   background: black;
   z-index: 10;
@@ -255,20 +257,19 @@ body {
 @media only screen and (max-width: 850px) {
   .menu {
     margin-top: 13rem;
+    margin-left: 2rem;
   }
 
   .social_media_one {
-    width: 19%;
+    width: 25%;
   }
 
   .social_media {
     display: none;
   }
-}
 
-@media only screen and (max-width: 850px) {
-  .social_media {
-    display: none;
+  .menu:hover ul {
+    transform: rotate(-45deg) translateY(-1em);
   }
 }
 
