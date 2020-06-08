@@ -320,63 +320,13 @@ body {
   }
 }
 
-/*------------------------------------------------------ First grid with Images -------------------------------*/
-.first_grid-container {
-  padding: 1rem;
-}
-
-.first_grid-img {
-  width: 100%;
-  margin: 0 auto;
-  height: 30rem;
-  background-position: center;
-  background-size: cover;
-  filter: brightness(0.4);
-}
-
-.first_image-cont {
-  margin-top: 1rem;
-}
-
-.first_grid-img:hover {
-  cursor: pointer;
-}
-
-.image_one {
-  background-image: url(img/feature_img/img_one.jpg);
-}
-
-.image_two {
-  background-image: url(img/feature_img/image_two.jpg);
-}
-
-.image_three {
-  background-image: url(img/feature_img/image_three.jpg);
-}
-
-.image_four {
-  background-image: url(img/feature_img/image_four.jpg);
-}
-
-.grid_img-text {
-  position: absolute;
-  left: 23%;
-  top: 40%;
-  font-family: 'Exo', sans-serif;
-  font-weight: 800;
-  font-size: 3rem;
-  text-transform: uppercase;
-  color: white;
-  cursor: pointer;
-}
-
-/*------------------------------------------- Curves ------------------------------------------------*/
-
-
 /*------------------------------------------- Who we are? --------------------------------------------*/
 .who_general-cont {
-  margin-top: 13rem;
-  margin-bottom: 18rem;
+  background-image: url(vec/Landingpagevector/trial_three.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 13rem;
+  padding-bottom: 18rem;
 }
 
 .who_image {
@@ -432,97 +382,6 @@ body {
     left: 17%;
   }
 
-}
-
-/*--------------------------------------------------------- Teamwork section -------------------------------*/
-.meet_general-cont {
-  display: flex;
-  width: 100%;
-  align-items: center;
-}
-
-.meet_image-cont {
-  position: relative;
-  width: 30%;
-}
-
-.teamwork_text-cont {
-  position: absolute;
-  left: 23%;
-  top: 10%;
-}
-
-.teamwork_text {
-  font-size: 3rem;
-  color: red;
-  font-family: 'Exo', sans-serif;
-  font-weight: 800;
-  text-transform: uppercase;
-}
-
-.meet_introduce-cont {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  width: 100%;
-}
-
-.meet_introduce-title {
-  display: flex;
-  align-items: center;
-  padding-bottom: 3rem;
-}
-
-.meet_introduce-title span {
-  font-size: 3rem;
-  font-family: 'Exo', sans-serif;
-}
-
-.team_list {
-  margin-bottom: 2rem;
-  padding: 1rem;
-  width: 100%;
-}
-
-.team_list ul {
-  display: flex;
-  list-style: none;
-  width: 100%;
-}
-
-.team_list ul li {
-  margin: 0 2.5rem;
-  font-size: 1.5rem;
-  text-transform: uppercase;
-  font-family: 'Lexend Tera', sans-serif;
-}
-
-.team_aim {
-  width: 70%;
-  text-align: center;
-}
-
-.team_aim-para {
-  font-size: 2rem;
-}
-
-@media only screen and (max-width: 600px) {
-  .meet_general-cont {
-    flex-direction: column;
-  }
-  
-  .meet_image-cont {
-    width: 100%;
-  }
-
-  .meet_image-cont img {
-    width: 100%;
-  }
-
-  .team_list ul li {
-    margin: 0 1rem;
-  }
 }
 
 /*---------------------------------------------- Carousel section ---------------------------------------*/
