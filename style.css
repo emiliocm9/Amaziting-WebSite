@@ -513,37 +513,6 @@ body {
   }
 }
 
-
-/* ------------------------------------------------------------- Services Section ----------------------------*/
-.text_services-container h2 {
-  font-size: 3rem;
-  font-weight: bold;
-  color: #F26B5B;
-}
-
-.service_row-one {
-  margin-top: 3rem;
-}
-
-.service_row-two {
-  margin-top: 3rem;
-}
-
-.service_container {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-.service_icon-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.service_icon-container img {
-  width: 30%;
-}
-
 /*--------------------------------------------- Service General Cont -----------------------------------*/
 .general_service-cont {
   margin: 3rem auto;
@@ -557,11 +526,16 @@ body {
 .cover {
   position: relative;
   display: flex;
+  text-align: center;
   margin: 0 auto;
   height: 50rem;
   background: #eee;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.16), 0 15px 12px rgba(0, 0, 0, 0.23);
   overflow: hidden;
+}
+
+.message_text_one {
+  text-align: center;
 }
 
 @media (max-width:770px) {
@@ -571,20 +545,23 @@ body {
     text-align: center;
     width: 50%;
   }
-
   
 }
 
 @media (max-width:900px) {
   .cover{
-    height: 64vh;
+    height: 50rem;
   }
 }
+
 #box1,
 #box2,
 #box3 {
   flex: 1;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .cover {
@@ -597,6 +574,7 @@ body {
 
 #box2 {
   background: #903DFF;
+  text-align: center;
 }
 
 #box3 {
@@ -607,6 +585,7 @@ body {
   font-size: 1.7vw;
   text-align: left;
   font-weight: thin;
+  color: white;
   margin-top: 10%;
   margin-bottom: 20%;
   line-height: 2vw;
