@@ -513,10 +513,50 @@ body {
   }
 }
 
+/*---------------------------------------------- Carousel section ---------------------------------------*/
+.carousel_row {
+  background-color: #0f4c81;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.16), 0 15px 12px rgba(0, 0, 0, 0.23)
+}
+
+.carousel_image-one {
+  padding: 8rem 0 8rem 14rem;
+}
+
+.carousel_image-one img {
+  border-radius: 2rem;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.16), 0 15px 12px rgba(0, 0, 0, 0.23);
+}
+
+.carousel_text-main {
+  border: 1px solid green;
+  width: 70%;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+@media screen and (max-width: 992px) {
+  .carousel_image-one {
+    padding: 5% 12%;
+  }
+
+  .text {
+    padding-bottom: 4%;
+  }
+}
+
 /*--------------------------------------------- Service General Cont -----------------------------------*/
+.general_service-cont {
+  margin: 6rem 0 2rem 0;
+}
+
 .box_general-container {
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.16), 0 15px 12px rgba(0, 0, 0, 0.23);
-  margin-top: 3rem;
 }
 
 .box_container-one {
@@ -524,7 +564,7 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
-  padding: 3rem 4rem;
+  padding: 6rem 4rem;
 }
 
 .box_container-two {
@@ -532,7 +572,7 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
-  padding: 3rem 4rem;
+  padding: 6rem 4rem;
 }
 
 .box_container-three {
@@ -540,7 +580,7 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
-  padding: 3rem 4rem;
+  padding: 6rem 4rem;
 }
 
 .message_text_one {
