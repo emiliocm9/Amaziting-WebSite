@@ -528,7 +528,7 @@ body {
 /*---------------------------------------------- Carousel section ---------------------------------------*/
 .carousel_general-titlcont h1 {
   padding: 5rem 0 2rem 0;
-  font-size: 3rem;
+/*   font-size: 3rem; */
 }
 
 .carousel_row {
