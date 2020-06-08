@@ -109,6 +109,8 @@ body {
   cursor: pointer;
   border: 1em solid #0f4c81;
   transform: rotate(90deg);
+  box-shadow: 1px -1px 10px 4px rgba(15,76,129,1);
+
 }
 
 .menu:after {
@@ -578,7 +580,7 @@ body {
 
 .carousel_row {
   background-color: #0f4c81;
-  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.16), 0 15px 12px rgba(0, 0, 0, 0.23)
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.16), 0 15px 12px rgba(0, 0, 0, 0.23);
 }
 
 .carousel_image-one {
