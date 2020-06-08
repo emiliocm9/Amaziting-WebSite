@@ -41,6 +41,18 @@ body {
   font-size: inherit;
 }
 
+.width_100 {
+  width: 100%;
+}
+
+.align_center {
+  align-items: center;
+}
+
+.width_auto {
+  width: auto;
+}
+
 /*------------------------------- Navbar----------------------------------------------------- */
 .nav_container {
   display: flex;
@@ -514,6 +526,11 @@ body {
 }
 
 /*---------------------------------------------- Carousel section ---------------------------------------*/
+.carousel_general-titlcont h1 {
+  padding: 5rem 0 2rem 0;
+  font-size: 3rem;
+}
+
 .carousel_row {
   background-color: #0f4c81;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.16), 0 15px 12px rgba(0, 0, 0, 0.23)
@@ -546,6 +563,12 @@ body {
 
   .text {
     padding-bottom: 4%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .carousel_general-titlcont h1 {
+    font-size: 2.5rem;
   }
 }
 
