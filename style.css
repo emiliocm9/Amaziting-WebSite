@@ -830,7 +830,7 @@ textarea {
 
 @media screen and (max-width: 768px) {
   #container {
-    width: 100%;
+    width: 75%;
   }
 
   .send_message-general {
