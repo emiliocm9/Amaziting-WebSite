@@ -566,12 +566,13 @@ body {
 
 @media (max-width:770px) {
 
-  .message_text {
-    margin-top: 7rem;
+  .message_text_one {
+    margin: 13rem auto 7rem auto;
+    text-align: center;
+    width: 50%;
   }
 
   
-
 }
 
 @media (max-width:900px) {
@@ -842,7 +843,7 @@ textarea {
   }
 
   .message_text {
-    margin-bottom: 13rem;
+    margin-bottom: 16rem;
   }
 }
 
