@@ -650,9 +650,9 @@ body {
 }
 
 /*------------------------------------------------ Send Message----------------------------------- */
-.send_message-general {
+/* .send_message-general {
   padding: 8rem 0;
-}
+} */
 
 .send_message-left {
   display: flex;
@@ -689,13 +689,6 @@ input {
 
 textarea {
   overflow: auto;
-}
-
-#container {
-  border: solid 3px #474544;
-  max-width: 768px;
-  margin: 60px auto;
-  position: relative;
 }
 
 form {
