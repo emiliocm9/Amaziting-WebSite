@@ -103,7 +103,6 @@ body {
   background: black;
   width: 5em;
   height: 5em;
-  right: -3rem;
   border-radius: 10em;
   margin: auto;
   margin-top: 7em;
@@ -280,6 +279,10 @@ body {
 @media only screen and (min-width: 850px) {
   .social_media_one {
     display: none;
+  }
+
+  .menu {
+    right: -3rem;
   }
 }
 
