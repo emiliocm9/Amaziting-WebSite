@@ -258,8 +258,8 @@ body {
 
 @media only screen and (max-width: 850px) {
   .menu {
-    margin-top: 13rem;
-    margin-left: 2rem;
+    margin-top: 12.5rem;
+    margin-left: 2.8rem;
   }
 
   .social_media_one {
@@ -363,7 +363,7 @@ body {
 .social_media_second {
   display: flex;
   flex-direction: column;
-  margin-left: 1.5rem;
+  margin-left: 2rem;
   position: fixed;
   bottom: 0rem;
   left: 0;
@@ -398,7 +398,7 @@ body {
   .social_media_second {
     display: flex;
     flex-direction: column;
-    margin-left: 1.5rem;
+    margin-left: 2rem;
     position: fixed;
     bottom: 0rem;
     left: 0;
