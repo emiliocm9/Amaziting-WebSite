@@ -70,12 +70,12 @@ body {
 }
 
 .logo h1 {
-  /* font-family: 'Lexend Tera', sans-serif; */
-  letter-spacing: 0.5rem;
+  font-family: 'Lexend Tera', sans-serif;
+  letter-spacing: 0.1rem;
+  font-size: 2.3rem;
   text-transform: uppercase;
-  font-size: 2rem;
-  color: black;
-  font-weight: bold;
+  color: red;
+  font-weight: 800;
 }
 
 .social_media {
@@ -94,7 +94,7 @@ body {
 
 .social_media i {
   font-size: 2.5rem;
-  color: white;
+  color: red;
 }
 
 /*-------------------------------------- Animate Menu --------------------------------------------*/
@@ -299,6 +299,7 @@ body {
   background-color: #e0e5eb;
   display: flex;
   align-items: center;
+  background-image: url(vec/Landingpagevector/trial_one.png);
 }
 
 .logo_reference {
@@ -365,7 +366,7 @@ body {
 .social_media_second {
   display: flex;
   flex-direction: column;
-  margin-left: 2rem;
+  margin-left: 4rem;
   position: fixed;
   bottom: 3rem;
   left: 0;
@@ -375,7 +376,6 @@ body {
 .social_media_second i {
   margin: 1.5rem 0;
   font-size: 3rem;
-  color: black;
 }
 
 /* .burger_menu-cont {
@@ -400,7 +400,7 @@ body {
   .social_media_second {
     display: flex;
     flex-direction: column;
-    margin-left: 2rem;
+    margin-left: 2.2rem;
     position: fixed;
     bottom: 3rem;
     left: 0;
@@ -580,6 +580,14 @@ body {
 }
 
 /*---------------------------------------------- Carousel section ---------------------------------------*/
+.carousel_general-title {
+  background-color: #e0e5eb;
+}
+
+.carousel_general-titlcont {
+  background-color: #e0e5eb;
+}
+
 .carousel_general-titlcont h1 {
   padding: 5rem 0 2rem 0;
 /*   font-size: 3rem; */
