@@ -371,7 +371,6 @@ body {
 .social_media_second {
   display: flex;
   flex-direction: column;
-  margin-right: 2.5rem;
   position: fixed;
   bottom: 3rem;
   right: 0;
@@ -407,7 +406,6 @@ body {
     flex-direction: column;
     position: fixed;
     bottom: 3rem;
-    right: 0;
     align-items: center;
   }
   
