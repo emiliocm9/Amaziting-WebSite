@@ -290,7 +290,7 @@ body {
 /*--------------------------------------------------------------- First Header Part ----------------------*/
 .first_header {
   width: 100%;
-  height: 68rem;
+  height: 70rem;
   display: flex;
 }
 
@@ -516,6 +516,79 @@ body {
   }
 }
 
+/*-------------------------------------------- Curves ------------------------------------------------*/
+.animate_general-container {
+  border-top: 3px solid #0f4c81;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.who_text {
+  width: 100%;
+  border: solid red;
+  text-align: center;
+  animate_circle-text: #E6EFF6;
+}
+
+
+.who_text h2 {
+  text-transform: uppercase;
+  color: #E6EFF6;
+  font-size: 2rem;
+  font-family: 'Lexend Tera', sans-serif;
+}
+
+
+.animate_circle {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin: 15rem auto 6rem auto;
+  width: 30rem;
+  height: 30rem;
+  background-color: #E6EFF6;
+  animation: square-to-circle 2s .5s infinite cubic-bezier(1,.015,.295,1.225) alternate;
+}
+
+.animate_circle-text {
+  transform: rotate(180deg);
+}
+
+@keyframes square-to-circle {
+  0%  {
+    border-radius:0 0 0 0;
+    background:#B6CADA;
+    transform:rotate(0deg);
+  }
+  25%  {
+    border-radius:50% 0 0 0;
+    background:#85c7d3;
+    transform:rotate(45deg);
+  }
+  50%  {
+    border-radius:50% 50% 0 0;
+    background: blueviolet;
+    transform:rotate(90deg);
+  }
+  75%  {
+    border-radius:50% 50% 50% 0;
+    background: blue;
+    transform:rotate(135deg);
+  }
+  100% {
+    border-radius:50%;
+    background:#0f4c81;
+    transform:rotate(180deg);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .animate_general-container {
+    flex-direction: column;
+  }
+}
+
 /*------------------------------------------- Who we are? --------------------------------------------*/
 .who_general-cont {
   /* background-image: url(vec/Landingpagevector/trial_three.png); */
@@ -534,19 +607,6 @@ body {
 
 .who_container-one {
   margin-top: 5rem;
-}
-
-.who_text {
-  position: absolute;
-  top: 50%;
-  left: 45%;
-}
-
-.who_text h2 {
-  text-transform: uppercase;
-  color: white;
-  font-size: 2rem;
-  font-family: 'Lexend Tera', sans-serif;
 }
 
 .who_para-cont {
