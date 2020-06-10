@@ -527,7 +527,6 @@ body {
 
 .who_text {
   width: 100%;
-  border: solid red;
   text-align: center;
 }
 
@@ -551,34 +550,66 @@ body {
 }
 
 .animate_circle-text {
-  transform: rotate(180deg);
+  animation: color-change 2s .5s infinite cubic-bezier(1,.015,.295,1.225) alternate;
 }
+
+@keyframes color-change {
+  0% {
+    color: white;
+    transform:rotate(0deg)
+  }
+
+  25% {
+    color: white;
+    transform:rotate(45deg);
+  }
+
+  50% {
+    color: white;
+    transform:rotate(90deg);
+  }
+
+  75% {
+    color: white;
+    transform:rotate(135deg);
+  }
+
+  100% {
+    color: white;
+    transform:rotate(180deg);
+  }
+}
+
 
 @keyframes square-to-circle {
   0%  {
     border-radius:0 0 0 0;
-    background:#B6CADA;
+    background: #5A5A5A;
     transform:rotate(0deg);
   }
+
   25%  {
     border-radius:50% 0 0 0;
-    background:#85c7d3;
-    transform:rotate(45deg);
+    background: #F26B5B;
+    transform:rotate(-45deg);
   }
+  
   50%  {
     border-radius:50% 50% 0 0;
     background: blueviolet;
-    transform:rotate(90deg);
+    transform:rotate(-90deg);
   }
+
   75%  {
     border-radius:50% 50% 50% 0;
     background: blue;
-    transform:rotate(135deg);
+    transform:rotate(-135deg);
   }
+
   100% {
     border-radius:50%;
     background:#0f4c81;
-    transform:rotate(180deg);
+    transform:rotate(-180deg);
   }
 }
 
