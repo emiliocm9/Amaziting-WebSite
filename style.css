@@ -105,9 +105,9 @@ body {
   width: 5em;
   height: 5em;
   border-radius: 10em;
-  margin: auto;
-  margin-top: 7em;
-  margin-bottom: 5em;
+  /* margin: auto; */
+  margin-top: 10em;
+  margin-bottom: 4em;
   cursor: pointer;
   border: 1em solid #0f4c81;
   transform: rotate(90deg);
@@ -283,7 +283,7 @@ body {
   }
 
   .menu {
-    right: -3rem;
+    right: -1rem;
   }
 }
 
@@ -371,10 +371,10 @@ body {
 .social_media_second {
   display: flex;
   flex-direction: column;
-  margin-left: 4rem;
+  margin-right: 2.5rem;
   position: fixed;
   bottom: 3rem;
-  left: 0;
+  right: 0;
   z-index: 1;
 }
 
@@ -641,10 +641,11 @@ body {
 /*----------------------------------------- What we do --------------------------------------------*/
 .what_text-container {
   margin-top: 0.7rem;
+  background-color: #85c7d3;
 }
 
 .what_general-container {
-  margin-top: 3rem;
+  margin-top: 7rem;
 }
 
 .what_text-cont {
@@ -1040,19 +1041,19 @@ textarea {
 
 /*----------------------------------------- Big Service Container -------------------------------------*/
 .bigservice_general-cont {
-  width: 50%;
+  width: 100%;
   background-color: #85c7d3;
   display: flex;
-  margin: 8rem auto 15rem auto;
+  margin: 0rem auto 15rem auto;
   align-items: center;
-  /* clip-path: circle(150% at 50% 260%); */
-  /* clip-path: ellipse(90% 70% at 50% 73%); */
 }
 
 .bigservice_container {
+  width: 100%;
+  justify-content: space-evenly;
   display: flex;
   flex-direction: column;
-  margin: 7rem auto 4rem;
+  margin: 5rem auto 5rem;
   align-items: center;
 }
 
@@ -1088,6 +1089,7 @@ textarea {
 
 .services_list {
   display: flex;
+  width: 100%;
   justify-content: space-around;
   text-align: center;
 }
@@ -1100,7 +1102,7 @@ textarea {
 .first {
   list-style: none;
   margin: 0 2rem;
-  text-align: right;
+  text-align: center;
 }
 
 .second {
@@ -1110,7 +1112,7 @@ textarea {
 }
 
 .third {
-  text-align: left;
+  text-align: center;
   margin: 0 2rem;
   list-style: none;
 }
