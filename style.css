@@ -639,16 +639,28 @@ body {
   } */
 }
 /*----------------------------------------- What we do --------------------------------------------*/
-
 .what_text-container {
+  margin-top: 0.7rem;
+}
+
+.what_general-container {
+  margin-top: 3rem;
 }
 
 .what_text-cont {
-  background-color: #0f4c81;
+  background-color: #B6CADA;
   display: flex;
-  padding: 3rem 0;
+  padding: 4rem 5rem;
   flex-direction: column;
   align-items: center;
+}
+
+.what_text-cont h2 {
+  padding-bottom: 1rem;
+}
+
+.what_text-cont h2 {
+  padding-bottom: 1rem;
 }
 
 /*----------------------------------------------- web what we do images -------------------------------*/
@@ -1028,9 +1040,10 @@ textarea {
 
 /*----------------------------------------- Big Service Container -------------------------------------*/
 .bigservice_general-cont {
-  width: 100%;
+  width: 50%;
   background-color: #85c7d3;
   display: flex;
+  margin: 8rem auto 15rem auto;
   align-items: center;
   /* clip-path: circle(150% at 50% 260%); */
   /* clip-path: ellipse(90% 70% at 50% 73%); */
@@ -1077,8 +1090,6 @@ textarea {
   display: flex;
   justify-content: space-around;
   text-align: center;
-  position: relative;
-  right: 3rem;
 }
 
 .list_margin {
@@ -1119,9 +1130,10 @@ textarea {
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 950px) {
   .bigservice_general-cont {
     /* clip-path: ellipse(170% 70% at 50% 73%); */
+    width: 100%;
   }
 }
 
