@@ -405,10 +405,11 @@ body {
   .social_media_second {
     display: flex;
     flex-direction: column;
-    margin-left: 2.2rem;
+    margin-right: 2.4rem;
     position: fixed;
     bottom: 3rem;
-    left: 0;
+    right: 0;
+    align-items: center;
   }
   
   .social_media_second i {
@@ -495,6 +496,10 @@ body {
     width: 30%;
     left: 40%;
   }
+
+  .social_media_second {
+    align-items: center;
+  }
 }
 
 @media only screen and (min-width: 800px) and (max-width: 1040px) {
@@ -513,6 +518,12 @@ body {
   .nav_container {
     position: fixed;
     z-index: 1;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .social_media_second {
+    align-items: center;
   }
 }
 
@@ -854,6 +865,18 @@ body {
   align-items: center;
   text-align: center;
   padding: 6rem 4rem;
+}
+
+.box_title {
+  margin: 6rem 0;
+}
+
+.box_para {
+  margin: 6rem 0;
+}
+
+.box_icon {
+  margin: 6rem 0;
 }
 
 .box_container-two {
