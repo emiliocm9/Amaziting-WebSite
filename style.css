@@ -679,7 +679,7 @@ body {
 }
 
 .section .content {
- /*  z-index: 2; */
+  z-index: 2;
 }
 
 .section:hover {
@@ -687,7 +687,7 @@ body {
 }
 
 .section:hover .overlay {
-  background-color: rgba(0, 0, 0, 0.95);
+  background-color: #e0e5eb;
 }
 
 #marketing {
