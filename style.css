@@ -405,7 +405,6 @@ body {
   .social_media_second {
     display: flex;
     flex-direction: column;
-    margin-right: 2.4rem;
     position: fixed;
     bottom: 3rem;
     right: 0;
