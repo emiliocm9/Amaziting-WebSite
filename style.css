@@ -16,6 +16,7 @@ body {
   font-size: 1.4rem;
   font-family: 'Alice', serif;
   background-color: #e0e5eb;
+  overflow-x: hidden;
 }
 
 /*------------------------------ GENERAL SETTINGS -----------------------------------------------*/
@@ -651,12 +652,20 @@ body {
 }
 
 /*----------------------------------------------- web what we do images -------------------------------*/
+.what_images-container {
+  padding: 2rem 4rem 4rem 4rem;
+  background-color: #e0e5eb;
+}
+
 .container {
   display: flex;
   height: 40rem;
+  border-radius: 2rem;
 }
 
 .section {
+  padding: 2rem;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.16), 0 15px 12px rgba(0, 0, 0, 0.23);
   flex: 1;
   display: flex;
   justify-content: center;
@@ -674,6 +683,8 @@ body {
   /* background-color: rgba(0, 0, 0, 0.7); */
   width: 100%;
   height: 100%;
+  display: flex;
+  align-items: center;
   position: absolute;
   transition: background-color .8s ease;
 }
@@ -686,11 +697,12 @@ body {
   flex: 2;
 }
 
-.section:hover .overlay {
+.section:hover .overlay{
   background-color: #e0e5eb;
 }
 
 #marketing {
+  border-radius: 2rem 0 0 2rem;
   background-image: url(https://images.unsplash.com/photo-1522205987242-8e22924ab42a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c0f679eb8f15705d46ea90008f39642b&auto=format&fit=crop&w=500&q=60);
 }
 
@@ -700,13 +712,22 @@ body {
 }
 
 #advertising {
+  border-radius: 0 2rem 2rem 0;
   background-image: url(https://images.unsplash.com/photo-1517799094725-e3453440724e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=353f3663a9fae75773d2942aeb37c2c8&auto=format&fit=crop&w=500&q=60);
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 768px) {
   .container {
     flex-direction: column;
     height: 70rem;
+  }
+
+  #marketing {
+    border-radius: 2rem 2rem 0 0;
+  }
+
+  #advertising {
+    border-radius: 0 0 2rem 2rem;
   }
 }
 /*--------------------------------------------- Service General Cont -----------------------------------*/
