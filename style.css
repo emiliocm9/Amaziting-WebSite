@@ -109,7 +109,7 @@ body {
   margin-top: 10em;
   margin-bottom: 4em;
   cursor: pointer;
-  border: 1em solid #0f4c81;
+  border: 1em solid grey;
   transform: rotate(90deg);
  /*  box-shadow: 1px -1px 10px 4px rgba(15,76,129,1); */
 
@@ -326,16 +326,9 @@ body {
   text-transform: uppercase;
 }
 
-.left_text-container p a {
-  text-decoration: none;
-  color: black;
-  font-size: 1.5rem;
-}
-
 .left_text-container h3 {
-  text-decoration-color: black;
+  color: white;
   text-transform: uppercase;
-  margin-bottom: 1.5rem;
 }
 
 .left_text-container h3 span {
@@ -389,13 +382,20 @@ body {
 }
  */
 /*--------------------------------------------------------- Media queries ------------------------------*/
+@media only screen and (max-width: 842px) {
+  .right_header {
+    box-shadow: inset 11px -11px 22px #aaaeb3, 
+                inset -11px 11px 22px #ffffff;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .left_header {
     flex-direction: column;
   }
   
   .left_text-container {
-    margin: 35rem auto 2rem;
+    margin: 40rem auto 2rem;
     width: 70%;
     display: flex;
     flex-direction: column;
@@ -419,10 +419,6 @@ body {
   .left_text-container h2 {
     font-size: 2rem;
     text-align: center;
-  }
-
-  .left_text-container p a {
-    font-size: 1.3rem;
   }
 
   .logo_reference {
@@ -1262,7 +1258,7 @@ textarea {
   display: flex;
   flex-direction: column;
   background-color: #0f4c81;
-  height: 14rem;
+  height: 20rem;
   padding-top: 2rem;
   justify-content: space-between;
 }
@@ -1375,3 +1371,6 @@ left:0;
 top:0;
 z-index: 1;
 }
+
+
+/*------------------------------------------------ Paquilaca ----------------------------------------------*/
