@@ -538,7 +538,6 @@ body {
   text-align: center;
 }
 
-
 .who_text h2 {
   text-transform: uppercase;
   color: #E6EFF6;
@@ -550,15 +549,28 @@ body {
   display: flex;
   align-items: center;
   position: relative;
-  margin: 15rem auto 6rem auto;
+  margin: 15rem 6rem 6rem auto;
   width: 30rem;
   height: 30rem;
   background-color: #E6EFF6;
   animation: square-to-circle 2s .5s infinite cubic-bezier(1,.015,.295,1.225) alternate;
 }
 
+.who_text-general {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  margin-top: 6rem;
+}
+
 .animate_circle-text {
   animation: color-change 2s .5s infinite cubic-bezier(1,.015,.295,1.225) alternate;
+}
+
+.who_para-cont {
+  width: 40%;
+  border-bottom: 2px solid #F26B5B;
+  margin: 0 auto 0 5rem;
 }
 
 @keyframes color-change {
@@ -629,8 +641,19 @@ body {
   .animate_circle {
     width: 20rem;
     height: 20rem;
+    margin: 15rem auto 6rem auto;
   }
 
+  .who_text-general {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 6rem;
+  }
+
+  .who_para-cont {
+    margin: 0 auto;
+  }
 }
 
 /*------------------------------------------- Who we are? --------------------------------------------*/
@@ -651,18 +674,6 @@ body {
 
 .who_container-one {
   margin-top: 5rem;
-}
-
-.who_para-cont {
-  width: 70%;
-  border-bottom: 2px solid #F26B5B;
-  margin: 0 auto;
-}
-
-.who_text-general {
-  display: flex;
-  align-items: center;
-  margin-top: 6rem;
 }
 
 .who_para-cont p {
