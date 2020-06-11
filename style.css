@@ -1270,34 +1270,37 @@ textarea {
 /*------------------------------------------------------------------- Footer ---------------------------------*/
 .footer_container {
   display: flex;
-  flex-direction: column;
-  background-color: #0f4c81;
-  height: 20rem;
+  width: 100%;
+  background-color: #85c7d3;
   padding-top: 2rem;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .footer_contact-cont {
   display: flex;
-  width: 80%;
-  margin: 0 auto;
+  width: 50%;
   justify-content: space-around;
+  margin-bottom: 2.5rem ;
 }
 
 .contact {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
 }
 
 .contact i {
   font-size: 3rem;
-  -webkit-text-stroke: 1px red;
   -webkit-text-fill-color: #0f4c81;
-  margin-right: 1.3rem;
+  margin: 0.7rem auto;
 }
 
 .contact a {
   color: white;
   font-size: 1.6rem;
+  padding: 0 0.7rem 0 0.7rem;
   text-decoration: none;
   font-weight: 400;
   transition: 0.5s ease-in;
@@ -1318,26 +1321,27 @@ textarea {
 }
 
 .amaziting_title {
-  width: 30%;
-  margin: 0 auto;
+  width: 350%;
   text-align: center;
-  margin-bottom: 2rem;
 }
 
 .amaziting_title h4 {
   color: white;
   font-size: 1.5rem;
+  text-transform: uppercase;
+  font-family: 'Lexend Tera', sans-serif;
 }
 
 
 @media only screen and (max-width: 770px) {
   .footer_container {
-    height: 22rem
+    flex-direction: column;
   }
   
   
   .footer_contact-cont {
     flex-direction: column;
+    margin: 0 auto;
   }
 
   .contact {
