@@ -354,6 +354,7 @@ body {
   background-color: #e0e5eb;
   display: flex;
   align-items: center;
+  overflow: hidden;
 }
 
 .right_text-transform {
