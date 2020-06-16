@@ -627,7 +627,7 @@ body {
 
   75%  {
     border-radius:50% 50% 50% 0;
-    background: blue;
+    background: #c0e5c8;
     transform:rotate(-135deg);
   }
 
@@ -761,7 +761,7 @@ body {
 /*----------------------------------------- What we do --------------------------------------------*/
 .what_text-container {
   margin-top: 0.7rem;
-  background-color: #85c7d3;
+  background-color: #cfe1ed;
 }
 
 .what_general-container {
@@ -893,7 +893,7 @@ body {
 }
 
 .box_container-two {
-  background-color: #85c7d3;
+  background-color: #cfe1ed;
   display: flex;
   align-items: center;
   text-align: center;
@@ -931,7 +931,7 @@ body {
 }
 
 .send_message-right {
-  background-color: #85c7d3;
+  background-color: #cfe1ed;
 }
 
 button {
@@ -1174,7 +1174,7 @@ textarea {
 /*----------------------------------------- Big Service Container -------------------------------------*/
 .bigservice_general-cont {
   width: 100%;
-  background-color: #85c7d3;
+  background-color: #cfe1ed;
   display: flex;
   margin: 0rem auto 15rem auto;
   align-items: center;
