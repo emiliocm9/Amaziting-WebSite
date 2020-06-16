@@ -537,7 +537,6 @@ body {
 
 /*-------------------------------------------- Curves ------------------------------------------------*/
 .animate_general-container {
-  border-top: 3px solid #0f4c81;
   width: 100%;
   display: flex;
   align-items: center;
