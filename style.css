@@ -930,7 +930,7 @@ body {
 }
 
 .send_message-right {
-  background-color: #8080ff;
+  background-color: #3333ff;
 }
 
 button {
@@ -1173,7 +1173,7 @@ textarea {
 /*----------------------------------------- Big Service Container -------------------------------------*/
 .bigservice_general-cont {
   width: 100%;
-  background-color: #bdbdff;
+  background-color: #9999ff;
   display: flex;
   margin: 0rem auto 15rem auto;
   align-items: center;
