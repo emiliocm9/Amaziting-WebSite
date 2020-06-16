@@ -29,6 +29,12 @@ body {
   text-decoration: none;
 }
 
+.anchor_white_a {
+  text-decoration: none;
+  color: black;
+}
+
+
 .anchor_white {
   text-decoration: none;
   color: white;
