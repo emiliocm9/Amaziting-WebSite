@@ -104,6 +104,66 @@ body {
   color: red;
 }
 
+/*---------------------------------------- Navigation Bar Second --------------------------------- */
+.navbar_general-container {
+  height: 10rem;
+  display: flex;
+  border: 1px solid black;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  align-items: center;
+  background-color: transparent;
+  z-index: 1;
+}
+
+.navbar_general-cont {
+  display: flex;
+  align-items: center;
+  width: 85%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.navbar_menu-containergen {
+  display: flex;
+  align-items: center;
+  width: 60%;
+  border: 1px solid green;
+  justify-content: space-evenly;
+}
+
+.logo_cont {
+  width: 40%;
+  border: 1px solid red;
+}
+
+.menu_list-container {
+  width: 100%;
+  align-items: center;
+  display: flex;
+}
+
+.menu_list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.menu_list li {
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.menu_list li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
 /*-------------------------------------- Animate Menu --------------------------------------------*/
 .menu {
   position: relative;
