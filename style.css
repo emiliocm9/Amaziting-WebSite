@@ -177,7 +177,7 @@ body {
 }
 
 .dropdown-menu {
-  background-color: transparent;
+  background-color: white;
   border-radius: 1rem;
 }
 
@@ -410,11 +410,11 @@ body {
 }
 
 .header_point_text-container h2 {
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 
 .header_point_text-container h3 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   text-transform: uppercase;
 }
 
@@ -1549,3 +1549,69 @@ z-index: 1;
 
 
 /*------------------------------------------------ Paquilaca ----------------------------------------------*/
+.menumobile {
+  background: transparent;
+  position: fixed;
+}
+
+.menumobile h3 {
+  color: #ffffff;
+  font-size: 1.9em;
+  text-transform: uppercase;
+  padding: 20px;
+  margin: 0;
+  font-weight: 300;
+  background: #6fa0d8;
+}
+.menumobile a {
+  display: block;
+  color: black;
+  font-size: 1.1em;
+  font-weight: 300;
+}
+.menumobile a:hover {
+  background: white;
+}
+.menumobile {
+  width: 240px;
+  height: 100%;
+  top: 0;
+  z-index: 1000;
+}
+.menumobile a {
+  text-decoration:none;
+  padding: 1em;
+}
+.menumobile {
+  left: 0px;
+}
+.menumobile,.menuoff,.buttonmove,.menutoggle  {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.menuoff{
+  margin-left:-240px;
+}
+.menutoggle {
+  left:1em;
+  top: 1em;
+  position: absolute;
+  cursor: pointer;
+}
+.menutoggle:before {
+  content: "";
+  position: absolute;
+  left: 1.5rem;
+  top: 1rem;
+  width: 3.5rem;
+  height: 2.7rem;
+  border-top: 1.6rem double white;
+  border-bottom: 0.5rem solid white;
+  box-shadow: rgba(0, 0, 0, 0.16);
+}
+.buttonmove{
+  position:absolute;
+  margin-left:160px;
+  z-index:99999999999;
+}
