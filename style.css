@@ -1563,36 +1563,45 @@ z-index: 1;
   font-weight: 300;
   background: #6fa0d8;
 }
+
 .menumobile a {
   display: block;
   color: black;
+  background-color: transparent;
   font-size: 1.1em;
   font-weight: 300;
 }
+
 .menumobile a:hover {
   background: white;
 }
+
 .menumobile {
   width: 240px;
   height: 100%;
   top: 0;
   z-index: 1000;
 }
+
 .menumobile a {
   text-decoration:none;
   padding: 1em;
 }
+
 .menumobile {
   left: 0px;
 }
+
 .menumobile,.menuoff,.buttonmove,.menutoggle  {
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
+
 .menuoff{
   margin-left:-240px;
 }
+
 .menutoggle {
   left:1em;
   top: 1em;
@@ -1608,7 +1617,6 @@ z-index: 1;
   height: 2.7rem;
   border-top: 1.6rem double white;
   border-bottom: 0.5rem solid white;
-  box-shadow: rgba(0, 0, 0, 0.16);
 }
 .buttonmove{
   position:absolute;
