@@ -394,6 +394,26 @@ body {
   height: 70rem;
   background-size: cover;
   background-position: center;
+  display: flex;
+  align-items: center;
+}
+
+.header_point_text-container {
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+  position: relative;
+  margin: 0 0 30rem 15rem;
+  text-align: center;
+}
+
+.header_point_text-container h2 {
+  font-size: 3rem;
+}
+
+.header_point_text-container h3 {
+  font-size: 2rem;
+  text-transform: uppercase;
 }
 
 /*--------------------------------------------------------------- First Header Part ----------------------*/
