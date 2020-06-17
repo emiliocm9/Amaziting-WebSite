@@ -428,11 +428,17 @@ body {
   }
 
   .header_point-image img {
-    width: 30rem;
+    width: 25rem;
   }
 
   .header_point_text-container {
-    margin: 7rem 25% 0 0;
+    margin: 7rem 30% 0 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .header_point_text-container {
+    margin: 7rem auto 0;
   }
 }
 
