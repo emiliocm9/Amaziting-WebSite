@@ -387,6 +387,15 @@ body {
   }
 }
 
+/*----------------------------------------------------------- New First Header ----------------------------*/
+.header_point-container {
+  background-image: url(vec/Landingpagevector/trial_five.png);
+  width: 100%;
+  height: 70rem;
+  background-size: cover;
+  background-position: center;
+}
+
 /*--------------------------------------------------------------- First Header Part ----------------------*/
 #myVideo {
   min-height: 100%;
