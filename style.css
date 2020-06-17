@@ -177,13 +177,14 @@ body {
 }
 
 .dropdown-menu {
-  background-color: #87D8C3;
+  background-color: transparent;
+  border-radius: 1rem;
 }
 
 .dropdown-item {
   font-size: 1.5rem !important;
   text-transform: uppercase !important;
-  margin: 0.5rem 0 !important;
+  margin: 1.5rem 0 !important;
 }
 
 .logo_img-cont {
@@ -396,6 +397,7 @@ body {
   background-position: center;
   display: flex;
   align-items: center;
+  justify-content: space-around;
 }
 
 .header_point_text-container {
@@ -403,7 +405,7 @@ body {
   flex-direction: column;
   width: 30rem;
   position: relative;
-  margin: 0 0 30rem 15rem;
+  margin: 0 0 30rem 5rem;
   text-align: center;
 }
 
@@ -414,6 +416,24 @@ body {
 .header_point_text-container h3 {
   font-size: 2rem;
   text-transform: uppercase;
+}
+
+.header_point-image img {
+  width: 50rem;
+}
+
+@media only screen and (max-width: 842px) {
+  .header_point-container {
+    flex-direction: column;
+  }
+
+  .header_point-image img {
+    width: 30rem;
+  }
+
+  .header_point_text-container {
+    margin: 7rem 30% 0 0;
+  }
 }
 
 /*--------------------------------------------------------------- First Header Part ----------------------*/
