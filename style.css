@@ -301,7 +301,7 @@ body {
 
 @media only screen and (max-width: 550px) {
   .menumobile {
-    width: 12rem;
+    width: 13rem;
   }
 
   .menutoggle {
@@ -309,17 +309,17 @@ body {
   }
 
   .menutoggle:before {
-    top: 0.5rem;
+    top: 0.3rem;
   }
 
   .menumobile h3 {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     padding-right: 0;
+    padding-left: 0.7rem;
   }
 
   .logo_text-cont h1 {
     font-size: 1.8rem;
-    margin-right: 1rem;
   }
 
   .menuoff{
@@ -327,12 +327,16 @@ body {
   }
 
   .buttonmove {
-    margin-left: 10rem;
+    margin-left: 7rem;
   }
 
   .logo_cont {
     position: relative;
     top: -1.5rem;
+  }
+
+  .logo_img-cont img {
+    width: 4rem;
   }
 
   .menumobile a {
