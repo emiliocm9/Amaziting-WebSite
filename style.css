@@ -287,16 +287,16 @@ body {
     width: 60%;
   }
 
-  .navbar_menu-containergen {
-    display: flex;
-    align-items: center;
-    width: 30%;
-  }
-
   .menumobile {
-    width: 20rem;
+    width: 17rem;
   }
   
+}
+
+@media only screen and (min-width: 900px) {
+  .logo_cont {
+    justify-content: center;
+  }
 }
 
 @media only screen and (max-width: 550px) {
