@@ -290,6 +290,11 @@ body {
   .menumobile {
     width: 17rem;
   }
+
+  .logo_cont {
+    position: relative;
+    top: -1rem;
+  }
   
 }
 
