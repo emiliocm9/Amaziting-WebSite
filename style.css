@@ -149,6 +149,16 @@ body {
   align-items: center;
 }
 
+.logo_text-cont {
+  margin-left: 1rem;
+}
+
+.logo_text-cont h1 {
+  font-family: 'Playfair Display', serif;
+  color: #d9534f;
+  font-size: 3rem;
+}
+
 .menu_list-container {
   width: 100%;
   align-items: center;
