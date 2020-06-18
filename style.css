@@ -104,7 +104,85 @@ body {
   color: red;
 }
 
+/*------------------------------------------------ Paquilaca ----------------------------------------------*/
+.menumobile {
+  background-color:  rgba(254, 206, 233, 0.4);
+  position: fixed;
+}
+
+.menumobile h3 {
+  color: #ffffff;
+  font-size: 1.9em;
+  text-transform: uppercase;
+  padding: 20px;
+  margin: 0;
+  font-weight: 300;
+  background: #6fa0d8;
+}
+
+.menumobile a {
+  display: block;
+  color: black;
+  background-color: transparent;
+  font-size: 1.1em;
+  font-weight: 300;
+}
+
+.menumobile a:hover {
+  background: white;
+}
+
+.menumobile {
+  width: 240px;
+  height: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.menumobile a {
+  text-decoration:none;
+  padding: 1em;
+}
+
+.menumobile {
+  left: 0px;
+}
+
+.menumobile,.menuoff,.buttonmove,.menutoggle  {
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.menuoff{
+  margin-left:-240px;
+}
+
+.menutoggle {
+  left:1em;
+  top: 1em;
+  position: absolute;
+  cursor: pointer;
+}
+
+.menutoggle:before {
+  content: "";
+  position: absolute;
+  left: 1.5rem;
+  top: 1rem;
+  width: 3.5rem;
+  height: 2.7rem;
+  border-top: 1.6rem double white;
+  border-bottom: 0.5rem solid white;
+}
+.buttonmove{
+  position:absolute;
+  margin-left:160px;
+  z-index:99999999999;
+}
+
 /*---------------------------------------- Navigation Bar Second --------------------------------- */
+
 .navbar_general-container {
   height: 10rem;
   display: flex;
@@ -131,7 +209,6 @@ body {
 
 .navbar_general-cont {
   display: flex;
-  align-items: center;
   width: 90%;
   margin: 0 auto;
   justify-content: space-between;
@@ -203,6 +280,64 @@ body {
 
 .logo_img-cont img {
   width: 5rem;
+}
+
+@media only screen and (max-width: 730px) {
+  .logo_cont {
+    width: 60%;
+  }
+
+  .navbar_menu-containergen {
+    display: flex;
+    align-items: center;
+    width: 30%;
+  }
+
+  .menumobile {
+    width: 20rem;
+  }
+  
+}
+
+@media only screen and (max-width: 550px) {
+  .menumobile {
+    width: 12rem;
+  }
+
+  .menutoggle {
+    left: 0;
+  }
+
+  .menutoggle:before {
+    top: 0.5rem;
+  }
+
+  .menumobile h3 {
+    font-size: 1.8rem;
+    padding-right: 0;
+  }
+
+  .logo_text-cont h1 {
+    font-size: 1.8rem;
+    margin-right: 1rem;
+  }
+
+  .menuoff{
+    margin-left: -14rem;
+  }
+
+  .buttonmove {
+    margin-left: 12rem;
+  }
+
+  .logo_cont {
+    position: relative;
+    top: -1.5rem;
+  }
+
+  .menumobile a {
+    font-size: 1.2rem;
+  }
 }
 
 /*-------------------------------------- Animate Menu --------------------------------------------*/
@@ -1555,81 +1690,4 @@ position:fixed;
 left:0;
 top:0;
 z-index: 1;
-}
-
-
-/*------------------------------------------------ Paquilaca ----------------------------------------------*/
-.menumobile {
-  background: transparent;
-  position: fixed;
-}
-
-.menumobile h3 {
-  color: #ffffff;
-  font-size: 1.9em;
-  text-transform: uppercase;
-  padding: 20px;
-  margin: 0;
-  font-weight: 300;
-  background: #6fa0d8;
-}
-
-.menumobile a {
-  display: block;
-  color: black;
-  background-color: transparent;
-  font-size: 1.1em;
-  font-weight: 300;
-}
-
-.menumobile a:hover {
-  background: white;
-}
-
-.menumobile {
-  width: 240px;
-  height: 100%;
-  top: 0;
-  z-index: 1000;
-}
-
-.menumobile a {
-  text-decoration:none;
-  padding: 1em;
-}
-
-.menumobile {
-  left: 0px;
-}
-
-.menumobile,.menuoff,.buttonmove,.menutoggle  {
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-
-.menuoff{
-  margin-left:-240px;
-}
-
-.menutoggle {
-  left:1em;
-  top: 1em;
-  position: absolute;
-  cursor: pointer;
-}
-.menutoggle:before {
-  content: "";
-  position: absolute;
-  left: 1.5rem;
-  top: 1rem;
-  width: 3.5rem;
-  height: 2.7rem;
-  border-top: 1.6rem double white;
-  border-bottom: 0.5rem solid white;
-}
-.buttonmove{
-  position:absolute;
-  margin-left:160px;
-  z-index:99999999999;
 }
