@@ -103,7 +103,8 @@ body {
 	font-size: 3.5rem;
 	padding: 2em 0;
 	color: #Ffb4a2;
-	text-align: center;
+  text-align: center;
+  word-wrap: break-word;
 }
 
 .header h1 span {
