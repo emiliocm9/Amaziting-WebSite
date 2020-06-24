@@ -94,7 +94,8 @@ body {
   background: white;
 	position: relative;
 	padding: 0 10%;
-	overflow: hidden;
+  overflow: hidden;
+  word-wrap: break-word;
 }
 
 .header h1 {
