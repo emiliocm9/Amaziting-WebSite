@@ -8,6 +8,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Lexend+Tera&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Exo:wght@800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://themify.me/wp-content/themes/themify-v32/themify-icons/themify-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap" rel="stylesheet">
   <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
@@ -15,47 +19,19 @@
   <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
-  <script type="text/javascript" src="prueba.js"></script>
   <title>Amaziting</title>
 </head>
 <body>
   <!------------------------------------------ Header Section ------------------------------------------------------->
-  <!-- <section class="nav_container">
-    <div class="social_media_one">
-      <nav class="menu">
-        <ul>
-          <li><a href="#header_one">Home</a></li>
-          <li><a href="#projects_one">Projects</a></li>
-          <li><a href="#services_one">Services</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-    <div class="social_media">
-      <nav class="menu">
-        <ul>
-          <li><a href="#header_one">Home</a></li>
-          <li><a href="#projects_one">Projects</a></li>
-          <li><a href="#services_one">Services</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-    <div class="logo">
-      <h1 class="text-dark"></h1>
-    </div>
-  </section> -->
   <section class="navbar_general-container">
     <a class="menutoggle"></a>
 <nav class="menumobile menuoff" >
 	<h3 class="title_font">Menu</h3>
-	<a href="#a_home" class="title_font">HOME</a>
-	<a href="#projects_one" class="title_font">PROJECTS</a>
-	<a href="#a_services" class="title_font">SERVICES</a>
-	<a href="#a_about" class="title_font">ABOUT</a>
-	<a href="#a_contact" class="title_font">CONTACT</a>
+	<a href="#a_home" class="title_menu title_bond">HOME</a>
+	<a href="#projects_one" class="title_menu title_bond">PROJECTS</a>
+	<a href="#a_services" class="title_menu title_bond">SERVICES</a>
+	<a href="#a_about" class="title_menu title_bond">ABOUT</a>
+	<a href="#a_contact" class="title_menu title_bond">CONTACT</a>
 </nav>
     <div class="navbar_general-cont">
       <div class="navbar_menu-containergen">
@@ -99,8 +75,12 @@
       </h2>
       <h3>The <span class="text-danger"> power </span> of digital marketing</h3>
     </div>
-    <div class="header_point-image">
-      <img src="vec/Landingpagevector/lap_top_one.png" alt="Lap_top">
+    <div class="animate_circle_header">
+      <div class="who_text">
+        <div class="header_point-image">
+          <img src="vec/Landingpagevector/lap_top_two.png" alt="Lap_top">
+        </div>
+      </div>
     </div>
     <div class="social_media_second">
       <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook text-dark"></i></a>
@@ -108,26 +88,6 @@
       <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram text-dark"></i></a>
     </div>
   </section>
-  <!-- <section id="header_one" class="first_header">
-    <div class="social_media_second">
-      <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook text-dark"></i></a>
-      <a href="tel:7706959063" target="_blank"><i class="fas fa-mobile-alt text-dark"></i></a>
-      <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram text-dark"></i></a>
-    </div>
-    <img src="img/logo_ref.png" alt="Referencia de logotipo" class="logo_reference">
-    <div class="left_header">
-      <div class="left_text-container">
-        <h2 class="text-white">Marketing</h2>
-        <h3>The <span class="text-danger"> power </span> of digital marketing</h3>
-      </div>
-    </div>
-    <div class="right_header">
-      <video autoplay loop muted id="myVideo">
-        <source src="Videos/86s_to_97_5s_Ink_In_Motion.mp4" type="video/mp4">
-      </video>
-      <span class="right_text-transform">amazing!</span>
-    </div>
-  </section> -->
   <!----------------------------------------------- Curves ------------------------------------------>
   <section id="a_services" class="what_general-container container-fluid">
     <div class="row">
@@ -218,17 +178,22 @@
             <div class="carousel-item active container-fluid">
               <div class="row carousel_row">
                 <div class="carousel_image-one col-12 col-lg-7">
-                  <img class="d-block w-100" src="img/Cabinet Transformations/Marketing_Photography_Cabinet_one.jpg" alt="Cabinet Transformations (Photography)">
+                  <div class="carousel_imageone-cont d-flex mb-4">
+                  <img class="d-block w-50 mr-2" src="img/Cabinet Transformations/reviews_page.png" alt="Cabinet Transformations (Photography)">
+                  <img class="d-block w-50 ml-2" src="img/Cabinet Transformations//facebook_page.png" alt="">
+                  </div>
+                  <img class="d-block w-100" src="img/Cabinet Transformations/front_page.png" alt="">
                 </div>
                 <div class="text col-12 col-lg-5">
                   <div class="carousel_text-title text-center text-lg-left">
-                    <h2 class="text-danger title_font text-uppercase">Cabinet Transformations</h2>
+                    <h2 class="text-danger text-center">Cabinet Transformations</h2>
+                    <h3 class="title_menu text-muted text-center">Kitchen & Bath</h4>
                   </div>
                   <div class="carousel_text-main text-white text-center text-lg-left">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum atque aliquam tempore laborum vel, a vitae placeat qui nam, ea, eveniet tenetur pariatur! Incidunt magni at cumque vero qui nostrum.</p>
                   </div>
-                  <div class="carousel_text-sub text-white text-center text-lg-left">
-                    <p class="text-danger">Social Media Management & Photography</p>
+                  <div class="carousel_text-sub text-white text-center">
+                    <p class="text-danger title_font">Social Media Management & Photography</p>
                     <p><a href="https://www.cabinettransformations.net" target="_blank" class="anchor_white">https://www.cabinettransformations.net</a></p>
                   </div>
                 </div>
@@ -237,7 +202,11 @@
             <div class="carousel-item container-fluid">
               <div class="row carousel_row">
                 <div class="carousel_image-one col-12 col-lg-7">
-                  <img class="d-block w-100" src="img/feature_img/image_two.jpg" alt="First slide">
+                  <div class="carousel_imageone-cont d-flex mb-4">
+                  <img class="d-block w-50 mr-2" src="img/Home Pictures/Photography_Service_for_Home_One.jpg" alt="Cabinet Transformations (Photography)">
+                  <img class="d-block w-50 ml-2" src="img/Home Pictures/Photography_Service_for_Home_Two.jpg" alt="Home Photography">
+                  </div>
+                  <img class="d-block w-100" src="img/Home Pictures/Photography_Service_for_Home_Three.jpg" alt="Home Photography">
                 </div>
                 <div class="text col-12 col-lg-5">
                   <div class="carousel_text-title text-center text-lg-left">
@@ -255,7 +224,7 @@
             <div class="carousel-item container-fluid">
               <div class="row carousel_row">
                 <div class="carousel_image-one col-12 col-lg-7">
-                  <img class="d-block w-100" src="img/feature_img/image_three.jpg" alt="First slide">
+                  <img class="d-block w-100" src="img/WebPage Development/Web_development_and_design.png" alt="First slide">
                 </div>
                 <div class="text col-12 col-lg-5">
                   <div class="carousel_text-title text-center text-lg-left">
@@ -286,10 +255,10 @@
   <!---------------------------------------- New Services Design ------------------------------------->
   <section id="services_one" class="cover_general container-fluid">
     <div class="row">
-      <div class="cover_contain col-12 col-md-7">
-        <div class="box_general-container container-fluid">
+      <div class="cover_contain col-12 col-lg-6">
+        <div class="box_general-container container-fluid service_container_padding_right">
           <div class="row">
-            <div class="box_container-one col-12 col-md-6 col-lg-6">
+            <div class="box_container-one col-12 col-lg-6">
               <div class="box1">
                 <div class="box_title">
                   <h2 class="text-white text-capitalize">SEO (Search Engine Optimization)</h2>
@@ -301,12 +270,15 @@
                 <div id="box_icon">
                   <img class="service_img" src="img/service_icons/seo.png" width="120px">
                 </div>
+                <div class="box_button">
+                  <a class="btn btn-info title_menu text-uppercase" href="SEO/index.html" role="button">Read More</a>
+                </div>
               </div>
             </div>
-            <div class="box_container-two col-12 col-md-6 col-lg-6">
+            <div class="box_container-two col-12 col-lg-6">
               <div class="box2">
                 <div class="box_title">
-                  <h2 class="text-white text-capitalize">Social Media Management</h2>
+                  <h2 class="text-white text-uppercase">Social Media</h2>
                 </div>
                 <div id="icon">
                   <img class="service_img" src="img/service_icons/share-icon.png" width="120px">
@@ -314,32 +286,58 @@
                 <div class="box_para">                 
                   We improve and adapt the content of your social profiles so that your project increases its visibility in search engines.
                 </div>
+                <div class="box_button">
+                  <a class="btn btn-info title_menu text-uppercase" href="#" role="button">Read More</a>
+                </div>
               </div>
             </div>
-<!--             <div class="box_container-three col-12 col-md-12 col-lg-4">
-              <div class="box3">
-                <div class="box_title">
-                  <h2 class="text-white text-capitalize">Search Engine Optimization (SEO)</h2>
-                </div>
-                <div class="box_para">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni hic, debitis consectetur dolore rem, totam maxime natus dolorum optio quaerat quasi ipsam esse? Ea quas dolorum quo animi, labore laboriosam?
-                </div>
-                <div id="icon">
-                  <img class="service_img" src="http://icons.iconarchive.com/icons/designbolts/seo/128/Seo-Tags-icon.png" width="100px">
-                </div>
-              </div>
-            </div> -->
           </div>
         </div>
       </div>
-      <div class="cover_right col-12 col-md-5">
-        <div class="message_text_one">
-          <h1 class="title_font">Make your <span class="red_span">idea</span> a reality</h1>
-          <h2>You never know how far you can <span class="red_span title_font text-uppercase">go.</span></h2>
+      <div class="cover_right col-12 col-lg-6">
+        <div class="box_general-container container-fluid service_container_padding_left">
+          <div class="row">
+            <div class="box_container-one col-12 col-lg-6">
+              <div class="box1">
+                <div class="box_title">
+                  <h2 class="text-white text-uppercase">Website</h2>
+                </div>
+                <div class="box_para">
+                  Through web design and development, we can give your website the beauty and function needed to reach your customer base in Atlanta, GA. Our team will work with you to craft a website which will set the right impression and establish your online presence.
+                </div>
+                <div id="box_icon">
+                  <img class="service_img" src="http://icons.iconarchive.com/icons/custom-icon-design/flatastic-11/512/Webpage-icon.png" width="120px">
+                </div>
+                <div class="box_button">
+                  <a class="btn btn-info title_menu text-uppercase" href="#" role="button">Read More</a>
+                </div>
+              </div>
+            </div>
+            <div class="box_container-two col-12 col-lg-6">
+              <div class="box2">
+                <div class="box_title">
+                  <h2 class="text-white text-uppercase">Branding</h2>
+                </div>
+                <div id="icon">
+                  <img class="service_img" src="http://icons.iconarchive.com/icons/iynque/ios7-style/1024/Design-Briefs-icon.png" width="120px">
+                </div>
+                <div class="box_para">                 
+                  Essentially, branding is your company's identity and how your identity resonates with your customers. 
+                </div>
+                <div class="box_button">
+                  <a class="btn btn-info title_menu text-uppercase" href="#" role="button">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </section>
+  <div class="message_text_one">
+    <h1 class="title_font">Make your <span class="red_span">idea</span> a reality</h1>
+    <h2>You never know how far you can <span class="red_span title_font text-uppercase">go.</span></h2>
+  </div>
   <!------------------------------------------------------ Send Message --------------------------------->
   <div id="a_contact" class="send_message-general container-fluid">
     <div class="send_message-row row">
@@ -384,7 +382,7 @@
     </div>
   </div>
     <!------------------------------------------ What we do ----------------------------------------------->
-    <section id="a_about" class="animate_general-container">
+<!--     <section id="a_about" class="animate_general-container">
       <div class="animate_circle">
         <div class="who_text">
           <h2 class="font_title animate_circle-text">Who we are?</h2>
@@ -395,32 +393,9 @@
           <p>We are an excellent team that bases their need on yours, to obtain the best possible result.</p>
         </div>
       </div>
-    </section>
-
-  <!--------------------------------------------------------- Arrow Up section ------------------------------>
-  <!------------------------------------------ Services big section --------------------------------->
+    </section> -->
   <!------------------------------------------------- Footer --------------------------------------->
-  <footer class="footer_container">
-    <div class="footer_contact-cont">
-      <div class="contact contact_one">
-        <i class="fas fa-mobile-alt"></i>
-        <a href="tel:7706959063">Call us</a>
-      </div>
-      <div class="contact contact_two">
-        <i class="far fa-paper-plane"></i>
-        <a href="mailto:info@amaziting.com">Text Us</a>
-      </div>
-      <div class="contact contact_two">
-        <i class="fas fa-map-marker-alt"></i>
-        <span class="">657 Senoia Rd, Tyrone GA</a>
-      </div>
-    </div>
-    <div class="amaziting_title-cont">
-      <div class="amaziting_title">
-        <h4>Amaziting, 2020.</h4>
-      </div>
-    </div>
-  </footer>
+
 
 
 
