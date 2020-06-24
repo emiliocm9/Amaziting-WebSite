@@ -20,6 +20,54 @@ body {
 }
 
 
+.hover_red {
+  transition: 0.5s ease-in;
+}
+
+.hover_red:hover {
+  color: red;
+  text-decoration: none;
+}
+
+.anchor_white_a {
+  text-decoration: none;
+  color: black;
+}
+
+.anchor_white {
+  text-decoration: none;
+  color: white;
+}
+
+.title_font {
+  font-family: 'Lexend Tera', sans-serif;
+}
+
+.red_span {
+  color: red;
+  font-size: inherit;
+}
+
+.width_100 {
+  width: 100%;
+}
+
+.align_center {
+  align-items: center;
+}
+
+.width_auto {
+  width: auto;
+}
+
+.title_bond {
+  font-weight: 700;
+}
+
+.title_menu {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
 /*-------------------------------------------------------- Title Trial ----------------------------------*/
 @import url(https://fonts.googleapis.com/css?family=Lato:300,900);
 
@@ -894,77 +942,62 @@ ul.social li a:hover, ul.social li a:focus {
 }
 
 /*-------------------------------------------------------------- footer ----------------------------*/
-.new_footer_area {
-  background: #fbfbfd;
+.footer_general-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-evenly;
+  background-color: white;
 }
 
+.footer_first-division {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: space-around;
+  margin-top: 2.5rem;
+}
 
-.new_footer_top {
-  padding: 120px 0 4rem;
-  position: relative;
-    overflow-x: hidden;
+.footer_amaziting_title-cont {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
-.new_footer_area .footer_bottom {
-  padding-top: 5px;
-  padding-bottom: 50px;
-}
-.footer_bottom {
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 20px;
-  color: #7f88a6;
-  padding: 27px 0px;
-}
-.new_footer_top .company_widget p {
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 28px;
-  color: #6a7695;
-  margin-bottom: 20px;
-}
-.new_footer_top .company_widget .f_subscribe_two .btn_get {
-  border-width: 1px;
-  margin-top: 20px;
-}
-.btn_get_two:hover {
-  background: transparent;
+
+.footer_amaziting-title h2 {
+  font-size: 2rem;
   color: #5e2ced;
-}
-.btn_get:hover {
-  color: #fff;
-  background: #6754e2;
-  border-color: #6754e2;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-}
-.anchor_footer:hover, .anchor_footer:focus, .btn:hover, .btn:focus, button:hover, button:focus {
-  text-decoration: none;
-  outline: none;
+  text-transform: uppercase;
+  font-family: "Lexend Tera";
 }
 
-.new_footer_top .f_widget.about-widget .f_list li a:hover {
-  color: #5e2ced;
+.footer_amaziting-title p {
+  font-size: 1.5rem;
+  color: #858da8;
+  font-family: 'Alice', serif;
 }
-.new_footer_top .f_widget.about-widget .f_list li {
-  margin-bottom: 11px;
+
+.footer_amaziting-title ul {
+  list-style: none;
+  font-size: 1.5rem;
+  color: #858da8;
 }
-.f_widget.about-widget .f_list li:last-child {
-  margin-bottom: 0px;
+
+.footer_amaziting-title ul li a {
+  color: #858da8;
+  font-family: 'Alice', serif;
 }
-.f_widget.about-widget .f_list li {
-  margin-bottom: 15px;
+
+.footer_what-container {
+  flex: 1;
 }
-.f_widget.about-widget .f_list {
-  margin-bottom: 0px;
+
+.f_social_icon {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
 }
-.new_footer_top .f_social_icon a {
-  width: 44px;
-  height: 44px;
-  line-height: 43px;
-  background: transparent;
-  border: 1px solid #e2e2eb;
-  font-size: 24px;
-}
+
 .f_social_icon a {
   width: 46px;
   height: 46px;
@@ -972,6 +1005,7 @@ ul.social li a:hover, ul.social li a:focus {
   font-size: 14px;
   line-height: 45px;
   color: #858da8;
+  border: 1px solid #858da8;
   display: inline-block;
   background: #ebeef5;
   text-align: center;
@@ -979,118 +1013,48 @@ ul.social li a:hover, ul.social li a:focus {
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
 }
-.ti-facebook:before {
-  content: "\e741";
-}
-.ti-twitter-alt:before {
-  content: "\e74b";
-}
-.ti-vimeo-alt:before {
-  content: "\e74a";
-}
-.ti-pinterest:before {
-  content: "\e731";
-}
 
-.btn_get_two {
-  -webkit-box-shadow: none;
-  box-shadow: none;
+.f_social_icon a:hover {
   background: #5e2ced;
   border-color: #5e2ced;
-  color: #fff;
+  color:white;
 }
 
-.btn_get_two:hover {
-  background: transparent;
-  color: #5e2ced;
-}
-
-.new_footer_top .f_social_icon a:hover {
-  background: #5e2ced;
-  border-color: #5e2ced;
-color:white;
-}
-.new_footer_top .f_social_icon a + a {
-  margin-left: 4px;
-}
-.new_footer_top .f-title {
-  margin-bottom: 30px;
-  color: #263b5e;
-}
-.f_600 {
-  font-weight: 600;
-}
-.f_size_18 {
-  font-size: 18px;
-}
-h1, h2, h3, h4, h5, h6 {
-  color: #4b505e;
-}
-.new_footer_top .f_widget.about-widget .f_list li a {
-  color: #6a7695;
-}
-
-
-.new_footer_top .footer_bg {
-  position: absolute;
-  bottom: 0;
-  background: url("http://droitthemes.com/html/saasland/img/seo/footer_bg.png") no-repeat scroll center 0;
+.footer_bottom {
   width: 100%;
-  height: 266px;
+  display: flex;
+  margin-bottom: 3rem;
 }
 
-.new_footer_top .footer_bg .footer_bg_one {
-  background: url("https://1.bp.blogspot.com/-mvKUJFGEc-k/XclCOUSvCnI/AAAAAAAAUAE/jnBSf6Fe5_8tjjlKrunLBXwceSNvPcp3wCLcBGAsYHQ/s1600/volks.gif") no-repeat center center;
-  width: 330px;
-  height: 105px;
-  background-size:100%;
-  position: absolute;
-  bottom: 0;
-  left: 30%;
-  -webkit-animation: myfirst 22s linear infinite;
-  animation: myfirst 22s linear infinite;
+.footer_bottom-cont {
+  width: 90%;
+  display: flex;
+  margin: 0 auto;
+  align-items: flex-end;
 }
 
-.new_footer_top .footer_bg .footer_bg_two {
-  background: url("https://1.bp.blogspot.com/-hjgfxUW1o1g/Xck--XOdlxI/AAAAAAAAT_4/JWYFJl83usgRFMvRfoKkSDGd--_Sv04UQCLcBGAsYHQ/s1600/cyclist.gif") no-repeat center center;
-  width: 88px;
-  height: 100px;
-  background-size:100%;
-  bottom: 0;
-  left: 38%;
-  position: absolute;
-  -webkit-animation: myfirst 30s linear infinite;
-  animation: myfirst 30s linear infinite;
+.footer_bottom-titlecont {
+  flex: 1;
 }
 
-
-
-@-moz-keyframes myfirst {
-0% {
-  left: -25%;
+.footer_bottom-titlecont p {
+  color: #858da8;
+  font-size: 1.5rem;
+  font-family: "Lexend Tera";
 }
 
-100% {
-  left: 100%;
-}
+@media only screen and (max-width: 700px) {
+  .footer_first-division {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer_what-container {
+    margin: 1rem 0;
+  }
+
+  .footer_bottom {
+    margin-top: 2rem;
+  }
 }
 
-@-webkit-keyframes myfirst {
-0% {
-  left: -25%;
-}
-
-100% {
-  left: 100%;
-}
-}
-
-@keyframes myfirst {
-0% {
-  left: -25%;
-}
-
-100% {
-  left: 100%;
-}
-}
