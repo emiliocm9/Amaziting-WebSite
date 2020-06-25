@@ -368,11 +368,10 @@ body {
 
 /*----------------------------------------------------------- New First Header ----------------------------*/
 .header_point-container {
-  background-color: #bdbdff;
+  background-color: white;
   width: 100%;
   height: 70rem;
   background-size: cover;
-  border-bottom: 4px solid white;
   background-position: center;
   display: flex;
   align-items: center;
@@ -510,6 +509,14 @@ body {
   }
 }
 
+@media only screen and (max-width: 1050px) {
+  .animate_circle_header {
+    width: 30rem;
+    height: 30rem;
+    margin-right: 0;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .animate_general-container {
     flex-direction: column;
@@ -525,27 +532,9 @@ body {
 
 
 /*--------------------------------------------------------------- First Header Part ----------------------*/
-#myVideo {
-  min-height: 100%;
-}
-
-.first_header {
-  width: 100%;
-  height: 70rem;
-  display: flex;
-}
 
 .logo h1 {
   margin-right: 4rem;
-}
-
-.left_header {
-  height: 100%;
-  width: 60%;
-  background-color: #e0e5eb;
-  display: flex;
-  align-items: center;
-  background-image: url(vec/Landingpagevector/trial_one.png);
 }
 
 .logo_reference {
@@ -582,15 +571,6 @@ body {
   color: #0f4c81;
 }
 
-.right_header {
-  height: 100%;
-  width: 40%;
-  background-color: #e0e5eb;
-  display: flex;
-  align-items: center;
-  overflow: hidden;
-}
-
 .right_text-transform {
   color: #e0e5eb;
   text-shadow: -3px -3px 7px #ffffffa6, 3px 3px 5px rgba(94, 104, 121, 0.712);
@@ -624,18 +604,7 @@ body {
 }
  */
 /*--------------------------------------------------------- Media queries ------------------------------*/
-@media only screen and (max-width: 842px) {
-  .right_header {
-    box-shadow: inset 11px -11px 22px #aaaeb3, 
-                inset -11px 11px 22px #ffffff;
-  }
-}
-
 @media only screen and (max-width: 600px) {
-  .left_header {
-    flex-direction: column;
-  }
-  
   .left_text-container {
     margin: 40rem auto 2rem;
     width: 70%;
