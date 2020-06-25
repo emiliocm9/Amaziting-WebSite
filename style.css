@@ -353,6 +353,8 @@ body {
 @media only screen and (max-width: 842px) {
   .header_point-container {
     flex-direction: column;
+    justify-content: space-evenly;
+    height: 55rem;
   }
 
   .header_point-image img {
@@ -391,10 +393,6 @@ body {
   background-color: #E6EFF6;
   animation: square-to-circle 2s .5s infinite cubic-bezier(1,.015,.295,1.225) alternate;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.16), 0 15px 12px rgba(0, 0, 0, 0.23);
-}
-
-.animate_circle-text {
-  animation: color-change 2s .5s infinite cubic-bezier(1,.015,.295,1.225) alternate;
 }
 
 @keyframes color-change {
