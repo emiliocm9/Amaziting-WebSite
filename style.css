@@ -126,13 +126,15 @@ body {
 }
 
 .menumobile h3 {
-  color: #ffffff;
   font-size: 1.9em;
   text-transform: uppercase;
   padding: 20px;
   margin: 0;
   font-weight: 300;
   background: #6fa0d8;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }
 
 .menumobile a {
@@ -235,9 +237,11 @@ body {
 }
 
 .logo_text-cont h1 {
-  font-family: 'Playfair Display', serif;
-  color: #d9534f;
-  font-size: 3rem;
+  font-family: 'Lexend Tera', serif;
+  font-size: 2.5rem;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }
 
 .logo_img-cont {
@@ -345,10 +349,10 @@ body {
   text-transform: uppercase;
 }
 
-.header_point-image img {
+.animate_circle_header img {
   width: 28rem;
   margin: 0 auto;
-  animation: color-change 2s .5s infinite cubic-bezier(1,.015,.295,1.225) alternate
+  /* animation: color-change 2s .5s infinite cubic-bezier(1,.015,.295,1.225) alternate */
 }
 
 @media only screen and (max-width: 842px) {
@@ -391,9 +395,9 @@ body {
   margin: 15rem 5rem 6rem 0;
   width: 34rem;
   height: 34rem;
-  background-color: #E6EFF6;
-  animation: square-to-circle 2s .5s infinite cubic-bezier(1,.015,.295,1.225) alternate;
-  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.16), 0 15px 12px rgba(0, 0, 0, 0.23);
+  background-color: #f3f3f3;
+  /* animation: square-to-circle 2s .5s infinite cubic-bezier(1,.015,.295,1.225) alternate; */
+/*   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.16), 0 15px 12px rgba(0, 0, 0, 0.23); */
 }
 
 @keyframes color-change {
@@ -1574,7 +1578,6 @@ textarea {
   }
 }
 
-
 /*---------------------------------------------*/
 .spinner{
   width: 80px;
@@ -1608,3 +1611,5 @@ left:0;
 top:0;
 z-index: 1;
 }
+
+/*----------------------------------------- Big Service Container -------------------------------------*/
