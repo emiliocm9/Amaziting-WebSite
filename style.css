@@ -121,7 +121,7 @@ body {
 
 /*------------------------------------------------ Paquilaca ----------------------------------------------*/
 .menumobile {
-  background-color:  rgba(254, 206, 233, 0.4);
+  /* background-color:  rgba(254, 206, 233, 0.4); */
   position: fixed;
 }
 
@@ -131,7 +131,8 @@ body {
   padding: 20px;
   margin: 0;
   font-weight: 300;
-  background: #6fa0d8;
+  border-bottom: 3px solid #6fa0d8;
+  background: transparent;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
