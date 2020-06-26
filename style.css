@@ -749,27 +749,27 @@ body {
 
 @keyframes color-change {
   0% {
-    color: white;
+    color: #17a2b8;
     transform:rotate(0deg)
   }
 
   25% {
-    color: white;
+    color: #17a2b8;
     transform:rotate(45deg);
   }
 
   50% {
-    color: white;
+    color: #17a2b8;
     transform:rotate(90deg);
   }
 
   75% {
-    color: white;
+    color: #17a2b8;
     transform:rotate(135deg);
   }
 
   100% {
-    color: white;
+    color: #17a2b8;
     transform:rotate(180deg);
   }
 }
@@ -778,31 +778,31 @@ body {
 @keyframes square-to-circle {
   0%  {
     border-radius:0 0 0 0;
-    background: #fecee9;
+    border: 3px solid #fecee9;
     transform:rotate(0deg);
   }
 
   25%  {
     border-radius:50% 0 0 0;
-    background: #Ffb4a2;
+    border: 3px solid #Ffb4a2;
     transform:rotate(-45deg);
   }
   
   50%  {
     border-radius:50% 50% 0 0;
-    background: #bdbdff;
+    border: 3px solid #bdbdff;
     transform:rotate(-90deg);
   }
 
   75%  {
     border-radius:50% 50% 50% 0;
-    background: #87D8C3;
+    border: 3px solid #87D8C3;
     transform:rotate(-135deg);
   }
 
   100% {
     border-radius:50%;
-    background:#6fa0d8;
+    border: 3px solid #6fa0d8;
     transform:rotate(-180deg);
   }
 }
