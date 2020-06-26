@@ -242,7 +242,7 @@ body {
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
-  letter-spacing: -0.1rem;
+  letter-spacing: 0.1rem;
 }
 
 .logo_img-cont {
