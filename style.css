@@ -242,6 +242,7 @@ body {
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
+  letter-spacing: -0.1rem;
 }
 
 .logo_img-cont {
@@ -373,7 +374,7 @@ body {
 
 @media only screen and (max-width: 500px) {
   .header_point_text-container {
-    margin: 0 auto 0;
+    margin: 0 auto;
   }
 }
 /*----------------------------------------- Animate Circle Second Part of the Header ---------------------------*/
@@ -392,6 +393,7 @@ body {
 .animate_circle_header {
   display: flex;
   align-items: center;
+  justify-content: center;
   margin: 15rem 5rem 6rem 0;
   width: 34rem;
   height: 34rem;
