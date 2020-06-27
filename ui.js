@@ -35,7 +35,7 @@ function pickLetters() {
 }
 
 window.addEventListener("load", function() {
-  addClickReplay('title');
+/*   addClickReplay('title'); */
   wrapChars("title");
   pickLetters();
 }, true);
