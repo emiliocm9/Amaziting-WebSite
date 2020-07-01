@@ -353,7 +353,7 @@ body {
 }
 
 .animate_circle_header img {
-  width: 28rem;
+  width: 36rem;
   margin: 0 auto;
   /* animation: color-change 2s .5s infinite cubic-bezier(1,.015,.295,1.225) alternate */
 }
