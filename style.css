@@ -387,7 +387,7 @@ body {
 
 .who_text h2 {
   text-transform: uppercase;
-  color: #E6EFF6;
+  color: black;
   font-size: 2rem;
   font-family: 'Lexend Tera', sans-serif;
 }
@@ -708,13 +708,6 @@ body {
   text-align: center;
 }
 
-.who_text h2 {
-  text-transform: uppercase;
-  color: #E6EFF6;
-  font-size: 2rem;
-  font-family: 'Lexend Tera', sans-serif;
-}
-
 .animate_circle {
   display: flex;
   align-items: center;
@@ -750,27 +743,27 @@ body {
 
 @keyframes color-change {
   0% {
-    color: #17a2b8;
+    color: black;
     transform:rotate(0deg)
   }
 
   25% {
-    color: #17a2b8;
+    color: black;
     transform:rotate(45deg);
   }
 
   50% {
-    color: #17a2b8;
+    color: black;
     transform:rotate(90deg);
   }
 
   75% {
-    color: #17a2b8;
+    color: black;
     transform:rotate(135deg);
   }
 
   100% {
-    color: #17a2b8;
+    color: black;
     transform:rotate(180deg);
   }
 }
