@@ -1385,7 +1385,8 @@ textarea {
 /*----------------------------------------- Big Service Container -------------------------------------*/
 .bigservice_general-cont {
   width: 100%;
-  background-color: #87D8C3;
+  background-color: transparent;
+  border: 10px solid #87D8C3;
   display: flex;
   margin: 0rem auto 15rem auto;
   align-items: center;
