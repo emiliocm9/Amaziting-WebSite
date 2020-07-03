@@ -941,6 +941,8 @@ body {
 
 .what_text-cont {
   background-color: #bdbdff;
+  background: transparent;
+  border: 10px solid #bdbdff;
   display: flex;
   padding: 4rem 5rem;
   flex-direction: column;
